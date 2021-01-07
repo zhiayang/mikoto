@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-01-04T01:20:58+08:00"
+    "CreationDate":  "2021-01-07T21:57:21+08:00"
   },
   "GeneralSpecs":
   {
@@ -29,18 +29,19 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.120,
-      "PadToTrack":  0.120,
+      "PadToPad":  0.000,
+      "PadToTrack":  0.000,
       "TrackToTrack":  0.120,
       "MinLineWidth":  0.150,
-      "TrackToRegion":  0.150,
-      "RegionToRegion":  0.150
+      "TrackToRegion":  0.125,
+      "RegionToRegion":  0.125
     },
     {
       "Layers": "Inner",
       "PadToPad":  0.120,
       "PadToTrack":  0.120,
       "TrackToTrack":  0.120,
+      "MinLineWidth":  0.300,
       "TrackToRegion":  0.150,
       "RegionToRegion":  0.150
     }
@@ -48,57 +49,57 @@
   "FilesAttributes":
   [
     {
-      "Path":  "akami-F_Cu.gtl",
+      "Path":  "akami-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-In1_Cu.g2",
+      "Path":  "akami-In1_Cu.gbr",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-In2_Cu.g3",
+      "Path":  "akami-In2_Cu.gbr",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-B_Cu.gbl",
+      "Path":  "akami-B_Cu.gbr",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-F_Paste.gtp",
+      "Path":  "akami-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-B_Paste.gbp",
+      "Path":  "akami-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-F_SilkS.gto",
+      "Path":  "akami-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-B_SilkS.gbo",
+      "Path":  "akami-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-F_Mask.gts",
+      "Path":  "akami-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "akami-B_Mask.gbs",
+      "Path":  "akami-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "akami-Edge_Cuts.gm1",
+      "Path":  "akami-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
