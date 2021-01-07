@@ -13,17 +13,9 @@ Comment,Designator,Footprint,LCSC Part #
 "BLUE Light emitting diode, small symbol",D1,LED_0603_1608Metric,C72041
 "1N5817 Schottky diode, small symbol","D2,D4",D_SOD-323,C489146
 "ORANGE Light emitting diode, small symbol",D3,LED_0603_1608Metric,C2286
-logo_front Mounting Hole without connection,DUMMY1,akami-logo,
-logo_back Mounting Hole without connection,DUMMY2,akami-logo,
-mousebite_left Mounting Hole without connection,DUMMY3,mouse-bite-2mm-slot-one-sided,
-mousebite_right Mounting Hole without connection,DUMMY4,mouse-bite-2mm-slot-one-sided,
-tooling_hole Mounting Hole without connection,"DUMMY5,DUMMY6,DUMMY7,DUMMY8",jlcpcb_tooling_hole,
-USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,
-"Conn_01x01 Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)","J2,J3",1pin_conn,
 "3.9nH Inductor, small symbol",L1,L_0402_1005Metric,C14033
 "15nH Inductor, small symbol",L2,L_0402_1005Metric,C27143
 "10uH Inductor, small symbol","L3,L4",L_0603_1608Metric,C1035
-"Net-Tie_2 Net tie, 2 pins",NT1,net-tie-2-tiny,
 "AO3401A -3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23",Q2,SOT-23,C15127
 "1M Resistor, small symbol","R1,R3",R_0402_1005Metric,C26083
 "10M Resistor, small symbol",R4,R_0402_1005Metric,C26082
@@ -32,11 +24,8 @@ USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,
 "10k Resistor, small symbol",R7,R_0402_1005Metric,C25744
 "5.1k Resistor, small symbol","R9,R10",R_0402_1005Metric,C25905
 "3M Resistor, small symbol",R11,R_0603_1608Metric,C23156
-TestPoint test point,"TP1,TP2,TP3,TP5",TestPoint_Pad_1.0x1.0mm,
-TestPoint test point,TP4,circular-pad-0.3mm,
 "nRF52840 Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73",U1,Nordic_AQFN-73-1EP_7x7mm_P0.5mm,C190794
 "TP4054 Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package",U2,SOT-23-5,C32574
 "AP2112K-3.3 600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5",U3,SOT-23-5,C51118
-ProMicro_2 ,U4,promicro_no_silk,
 "32MHz Four pin crystal, GND on pins 2 and 4, small symbol",Y1,Crystal_SMD_2016-4Pin_2.0x1.6mm,C254298
 "32.768 kHz Two pin crystal, small symbol",Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
