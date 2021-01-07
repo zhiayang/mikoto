@@ -31,9 +31,9 @@ U 1 1 5FEAEC19
 P 6150 1250
 F 0 "Y2" V 6104 1338 50  0000 L CNN
 F 1 "32.768 kHz" V 6195 1338 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm" H 6150 1250 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 6150 1250 50  0001 C CNN
 F 3 "~" H 6150 1250 50  0001 C CNN
-F 4 "C99009" H 6150 1250 50  0001 C CNN "LCSC Part"
+F 4 "C32346" H 6150 1250 50  0001 C CNN "LCSC Part"
 	1    6150 1250
 	0    1    1    0   
 $EndComp
@@ -42,10 +42,10 @@ L Device:C_Small C18
 U 1 1 5FEB00AC
 P 6500 1450
 F 0 "C18" V 6637 1450 50  0000 C CNN
-F 1 "3.3pF" V 6728 1450 50  0000 C CNN
+F 1 "15pF" V 6728 1450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 1450 50  0001 C CNN
 F 3 "~" H 6500 1450 50  0001 C CNN
-F 4 "C1565" H 6500 1450 50  0001 C CNN "LCSC Part"
+F 4 "C1548" H 6500 1450 50  0001 C CNN "LCSC Part"
 	1    6500 1450
 	0    1    1    0   
 $EndComp
@@ -54,10 +54,10 @@ L Device:C_Small C17
 U 1 1 5FEB0F6F
 P 6500 1050
 F 0 "C17" V 6271 1050 50  0000 C CNN
-F 1 "3.3pF" V 6362 1050 50  0000 C CNN
+F 1 "15pF" V 6362 1050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 1050 50  0001 C CNN
 F 3 "~" H 6500 1050 50  0001 C CNN
-F 4 "C1565" H 6500 1050 50  0001 C CNN "LCSC Part"
+F 4 "C1548" H 6500 1050 50  0001 C CNN "LCSC Part"
 	1    6500 1050
 	0    1    1    0   
 $EndComp
@@ -90,10 +90,10 @@ L Device:C_Small C12
 U 1 1 5FEB4731
 P 3800 400
 F 0 "C12" V 3600 400 50  0000 C CNN
-F 1 "820pF" V 3700 400 50  0000 C CNN
+F 1 "1nF" V 3700 400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 400 50  0001 C CNN
 F 3 "~" H 3800 400 50  0001 C CNN
-F 4 "C307452" H 3800 400 50  0001 C CNN "LCSC Part"
+F 4 "C1523" H 3800 400 50  0001 C CNN "LCSC Part"
 	1    3800 400 
 	0    1    1    0   
 $EndComp
@@ -189,7 +189,7 @@ F 0 "Y1" V 2854 3994 50  0000 L CNN
 F 1 "32MHz" V 2945 3994 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 2900 3850 50  0001 C CNN
 F 3 "~" H 2900 3850 50  0001 C CNN
-F 4 "C383840" H 2900 3850 50  0001 C CNN "LCSC Part"
+F 4 "C254298" H 2900 3850 50  0001 C CNN "LCSC Part"
 	1    2900 3850
 	0    1    1    0   
 $EndComp
@@ -276,18 +276,6 @@ Connection ~ 2450 3850
 Wire Wire Line
 	2450 3850 2450 3650
 $Comp
-L Device:C_Small C9
-U 1 1 5FEC5A1F
-P 3000 2250
-F 0 "C9" H 3092 2204 50  0000 L CNN
-F 1 "1pF" H 3092 2295 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3000 2250 50  0001 C CNN
-F 3 "~" H 3000 2250 50  0001 C CNN
-F 4 "C1550" H 3000 2250 50  0001 C CNN "LCSC Part"
-	1    3000 2250
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C_Small C5
 U 1 1 5FEC666A
 P 2400 2250
@@ -326,10 +314,8 @@ Wire Wire Line
 	2400 2350 2400 2450
 Text GLabel 3000 2650 3    50   Input ~ 0
 VSS_PA
-Text GLabel 4900 6700 2    50   Input ~ 0
+Text GLabel 5000 6700 2    50   Input ~ 0
 VSS_PA
-Wire Wire Line
-	4900 6700 4600 6700
 Wire Wire Line
 	4600 6700 4600 6650
 Wire Wire Line
@@ -353,42 +339,7 @@ Wire Wire Line
 	4200 1050 4200 -250
 Wire Wire Line
 	4000 -250 4200 -250
-Wire Wire Line
-	4200 -250 4900 -250
 Connection ~ 4200 -250
-Wire Wire Line
-	4900 1050 4900 900 
-$Comp
-L Device:L_Small L3
-U 1 1 5FEE6B0E
-P 4900 800
-F 0 "L3" H 4948 846 50  0000 L CNN
-F 1 "10uH" H 4948 755 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 4900 800 50  0001 C CNN
-F 3 "~" H 4900 800 50  0001 C CNN
-F 4 "C1035" H 4900 800 50  0001 C CNN "LCSC Part"
-	1    4900 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L2
-U 1 1 5FEE7D04
-P 4900 500
-F 0 "L2" H 4948 546 50  0000 L CNN
-F 1 "15nH" H 4948 455 50  0000 L CNN
-F 2 "Inductor_SMD:L_0402_1005Metric" H 4900 500 50  0001 C CNN
-F 3 "~" H 4900 500 50  0001 C CNN
-F 4 "C27143" H 4900 500 50  0001 C CNN "LCSC Part"
-	1    4900 500 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 600  4900 700 
-Wire Wire Line
-	4900 -250 4900 400 
-Connection ~ 4900 -250
-Wire Wire Line
-	4900 -250 5250 -250
 Wire Wire Line
 	5250 -400 5250 -250
 Connection ~ 5250 -250
@@ -518,15 +469,6 @@ Wire Wire Line
 Connection ~ 11500 850 
 Text GLabel 11700 850  2    50   Input ~ 0
 VDD_NRF
-Wire Wire Line
-	4500 1050 4500 400 
-Wire Wire Line
-	4500 400  4600 400 
-Wire Wire Line
-	4600 400  4600 1050
-Wire Wire Line
-	4500 400  4500 250 
-Connection ~ 4500 400 
 Text GLabel 4500 250  1    50   Input ~ 0
 VDD_NRF
 Text GLabel 5900 6250 2    50   Input ~ 0
@@ -565,25 +507,19 @@ $Comp
 L Transistor_FET:IRLML9301 Q1
 U 1 1 5FF518E9
 P 8700 2050
-F 0 "Q1" H 8905 2096 50  0000 L CNN
-F 1 "P MOSFET" H 8905 2005 50  0000 L CNN
+F 0 "Q1" H 9000 2100 50  0000 L CNN
+F 1 "AO3401A" H 9000 2000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8900 1975 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640" H 8700 2050 50  0001 L CNN
-F 4 "C10487" H 8700 2050 50  0001 C CNN "LCSC Part"
+F 3 "" H 8700 2050 50  0001 L CNN
+F 4 "C15127" H 8700 2050 50  0001 C CNN "LCSC Part"
 	1    8700 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8400 2050 8500 2050
 Connection ~ 8400 2050
-Text GLabel 8900 1750 2    50   Input ~ 0
+Text GLabel 8700 1750 0    50   Input ~ 0
 3V3_OUT
-Wire Wire Line
-	8800 1750 8800 1850
-Text GLabel 8900 2350 2    50   Input ~ 0
-VDD_NRF
-Wire Wire Line
-	8800 2250 8800 2350
 Text GLabel 3100 5550 0    50   Input ~ 0
 RESET
 Text GLabel 3100 5650 0    50   Input ~ 0
@@ -802,18 +738,6 @@ Wire Wire Line
 	9050 3400 9050 3500
 Wire Wire Line
 	8650 3400 8750 3400
-$Comp
-L Regulator_Linear:AP2112K-3.3 U3
-U 1 1 6005829A
-P 11400 4950
-F 0 "U3" H 11250 4700 50  0000 C CNN
-F 1 "AP2112K-3.3" H 11400 5201 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 11400 5275 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 11400 5050 50  0001 C CNN
-F 4 "C51118" H 11400 4950 50  0001 C CNN "LCSC Part"
-	1    11400 4950
-	1    0    0    -1  
-$EndComp
 Text GLabel 11800 4850 2    50   Input ~ 0
 VDD_NRF
 Wire Wire Line
@@ -869,42 +793,33 @@ Wire Wire Line
 Connection ~ 10150 4850
 Wire Wire Line
 	10150 4850 10150 4950
-Wire Wire Line
-	10450 4850 10600 4850
-Connection ~ 10600 4850
-Wire Wire Line
-	10600 4850 10600 4950
 $Comp
 L Device:C_Small C20
 U 1 1 600BD765
-P 10600 5050
-F 0 "C20" H 10508 5004 50  0000 R CNN
-F 1 "4.7uF" H 10508 5095 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10600 5050 50  0001 C CNN
-F 3 "~" H 10600 5050 50  0001 C CNN
-F 4 "C19666" H 10600 5050 50  0001 C CNN "LCSC Part"
-	1    10600 5050
+P 10550 5050
+F 0 "C20" H 10458 5004 50  0000 R CNN
+F 1 "4.7uF" H 10458 5095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10550 5050 50  0001 C CNN
+F 3 "~" H 10550 5050 50  0001 C CNN
+F 4 "C19666" H 10550 5050 50  0001 C CNN "LCSC Part"
+	1    10550 5050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10600 5150 10600 5350
 $Comp
 L Transistor_FET:IRLML9301 Q2
 U 1 1 60065EE0
 P 10600 4600
 F 0 "Q2" H 10805 4646 50  0000 L CNN
-F 1 "P MOSFET" H 10805 4555 50  0000 L CNN
+F 1 "AO3401A" H 10805 4555 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10800 4525 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640" H 10600 4600 50  0001 L CNN
-F 4 "C10487" H 10600 4600 50  0001 C CNN "LCSC Part"
+F 3 "" H 10600 4600 50  0001 L CNN
+F 4 "C15127" H 10600 4600 50  0001 C CNN "LCSC Part"
 	1    10600 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10700 4800 10700 4850
 Connection ~ 10700 4850
-Wire Wire Line
-	10700 4850 10600 4850
 Wire Wire Line
 	10150 4600 10400 4600
 $Comp
@@ -996,7 +911,6 @@ NoConn ~ 5900 1850
 NoConn ~ 5900 2050
 NoConn ~ 5900 2550
 NoConn ~ 5900 1650
-NoConn ~ 5000 1050
 Wire Wire Line
 	5800 1550 5900 1550
 Wire Wire Line
@@ -1269,12 +1183,12 @@ $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 6062D152
-P 10600 5350
-F 0 "#PWR0115" H 10600 5100 50  0001 C CNN
-F 1 "GND" H 10605 5177 50  0000 C CNN
-F 2 "" H 10600 5350 50  0001 C CNN
-F 3 "" H 10600 5350 50  0001 C CNN
-	1    10600 5350
+P 10550 5350
+F 0 "#PWR0115" H 10550 5100 50  0001 C CNN
+F 1 "GND" H 10555 5177 50  0000 C CNN
+F 2 "" H 10550 5350 50  0001 C CNN
+F 3 "" H 10550 5350 50  0001 C CNN
+	1    10550 5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1521,8 +1435,6 @@ F 3 "~" H 11950 4300 50  0001 C CNN
 	1    11950 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 2350 3000 2650
 $Comp
 L Device:C_Small C22
 U 1 1 6073B71B
@@ -1672,8 +1584,6 @@ Wire Notes Line
 	9700 4000 12250 4000
 Wire Wire Line
 	11800 4850 11700 4850
-Text Notes 9700 3950 0    50   ~ 0
-Power
 Wire Notes Line
 	12500 3000 14800 3000
 Wire Notes Line
@@ -1696,16 +1606,10 @@ Text Notes 9700 1450 0    50   ~ 0
 Battery Charger
 Wire Wire Line
 	7900 4250 8000 4250
-Wire Wire Line
-	8900 1750 8800 1750
-Wire Wire Line
-	8800 2350 8900 2350
 Wire Notes Line
 	9450 1500 9450 2800
 Wire Notes Line
 	7700 2800 7700 1500
-Wire Notes Line
-	7700 1500 9450 1500
 Wire Notes Line
 	7700 2800 9450 2800
 Text Notes 7700 1450 0    50   ~ 0
@@ -1741,4 +1645,134 @@ Wire Notes Line
 Wire Wire Line
 	11700 1150 11500 1150
 Connection ~ 11500 1150
+Text Notes 9700 700  0    50   ~ 0
+Decoupling Capacitors
+Text Notes 2100 150  0    50   ~ 0
+https://devzone.nordicsemi.com/f/nordic-q-a\n/37758/dec5-decoupling-capacitor-value\n\n=> C12 can be 1nF
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 606C509A
+P 4750 6800
+F 0 "NT1" V 4704 6844 50  0000 L CNN
+F 1 "Net-Tie_2" V 4795 6844 50  0000 L CNN
+F 2 "footprints:net-tie-2-tiny" H 4750 6800 50  0001 C CNN
+F 3 "~" H 4750 6800 50  0001 C CNN
+	1    4750 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5FEC5A1F
+P 3000 2250
+F 0 "C9" H 3092 2204 50  0000 L CNN
+F 1 "1pF" H 3092 2295 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3000 2250 50  0001 C CNN
+F 3 "~" H 3000 2250 50  0001 C CNN
+F 4 "C1550" H 3000 2250 50  0001 C CNN "LCSC Part"
+	1    3000 2250
+	-1   0    0    1   
+$EndComp
+Connection ~ 4750 6700
+Wire Wire Line
+	4750 6700 4600 6700
+Wire Wire Line
+	4750 6700 5000 6700
+Wire Wire Line
+	3000 2350 3000 2650
+$Comp
+L power:GND #PWR0111
+U 1 1 606F3B22
+P 4750 6900
+F 0 "#PWR0111" H 4750 6650 50  0001 C CNN
+F 1 "GND" H 4755 6727 50  0000 C CNN
+F 2 "" H 4750 6900 50  0001 C CNN
+F 3 "" H 4750 6900 50  0001 C CNN
+	1    4750 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 10950 5150 3    50   Input ~ 0
+VDD_OUT
+Connection ~ 10950 4950
+Wire Wire Line
+	10450 4850 10550 4850
+Wire Wire Line
+	10550 4850 10550 4950
+Connection ~ 10550 4850
+Wire Wire Line
+	10550 4850 10700 4850
+Wire Wire Line
+	10550 5150 10550 5350
+$Comp
+L Regulator_Linear:AP2112K-3.3 U3
+U 1 1 6005829A
+P 11400 4950
+F 0 "U3" H 11250 4700 50  0000 C CNN
+F 1 "AP2112K-3.3" H 11400 5201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 11400 5275 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 11400 5050 50  0001 C CNN
+F 4 "C51118" H 11400 4950 50  0001 C CNN "LCSC Part"
+	1    11400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 400  4600 1050
+Wire Wire Line
+	10950 4950 10950 5150
+Wire Wire Line
+	4500 400  4500 250 
+Wire Wire Line
+	4500 1050 4500 400 
+Connection ~ 4500 400 
+Wire Wire Line
+	4500 400  4600 400 
+$Comp
+L Device:L_Small L2
+U 1 1 5FEE7D04
+P 4900 0
+F 0 "L2" H 4948 46  50  0000 L CNN
+F 1 "15nH" H 4948 -45 50  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4900 0   50  0001 C CNN
+F 3 "~" H 4900 0   50  0001 C CNN
+F 4 "C27143" H 4900 0   50  0001 C CNN "LCSC Part"
+	1    4900 0   
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L3
+U 1 1 5FEE6B0E
+P 4900 300
+F 0 "L3" H 4948 346 50  0000 L CNN
+F 1 "10uH" H 4948 255 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 4900 300 50  0001 C CNN
+F 3 "~" H 4900 300 50  0001 C CNN
+F 4 "C1035" H 4900 300 50  0001 C CNN "LCSC Part"
+	1    4900 300 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 400  4900 1050
+Wire Wire Line
+	4900 200  4900 100 
+Wire Wire Line
+	4900 -100 4900 -250
+Wire Wire Line
+	4200 -250 4900 -250
+Wire Wire Line
+	4900 -250 5250 -250
+Connection ~ 4900 -250
+NoConn ~ 5000 1050
+Wire Wire Line
+	8800 2250 8800 2400
+Wire Wire Line
+	8700 1750 8800 1750
+Wire Wire Line
+	8800 1750 8800 1850
+Wire Notes Line
+	7700 1500 9450 1500
+Text Notes 9700 3950 0    50   ~ 0
+Power
+Text GLabel 8900 2400 2    50   Input ~ 0
+VDD_NRF
+Wire Wire Line
+	8900 2400 8800 2400
 $EndSCHEMATC
