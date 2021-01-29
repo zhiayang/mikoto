@@ -3,7 +3,7 @@ Comment,Designator,Footprint,LCSC Part #
 "100nF Unpolarized capacitor, small symbol","C2,C3,C4,C10",C_0402_1005Metric,C1525
 "1pF Unpolarized capacitor, small symbol","C5,C9",C_0402_1005Metric,C1550
 "10pF Unpolarized capacitor, small symbol","C6,C7",C_0402_1005Metric,C32949
-"1uF Unpolarized capacitor, small symbol","C8,C15,C24",C_0402_1005Metric,C52923
+"1uF Unpolarized capacitor, small symbol","C8,C15,C23,C24",C_0402_1005Metric,C52923
 "100pF Unpolarized capacitor, small symbol",C11,C_0402_1005Metric,C1546
 "1nF Unpolarized capacitor, small symbol",C12,C_0402_1005Metric,C1523
 "47nF Unpolarized capacitor, small symbol",C16,C_0603_1608Metric,C1622
@@ -17,7 +17,6 @@ logo_front Mounting Hole without connection,DUMMY1,akami-logo,
 logo_back Mounting Hole without connection,DUMMY2,akami-logo,
 mousebite_left Mounting Hole without connection,DUMMY3,mouse-bite-2mm-slot-one-sided,
 mousebite_right Mounting Hole without connection,DUMMY4,mouse-bite-2mm-slot-one-sided,
-tooling_hole Mounting Hole without connection,"DUMMY5,DUMMY6,DUMMY7,DUMMY8",jlcpcb_tooling_hole,
 USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,
 "Conn_01x01 Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)","J2,J3",1pin_conn,
 "3.9nH Inductor, small symbol",L1,L_0402_1005Metric,C14033

@@ -1,4 +1,4 @@
-update=08/01/2021 01:02:19
+update=24/01/2021 14:09:52
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/Programs/KiCad/empty.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=D:/Programs/KiCad/empty.kicad_wks
@@ -32,16 +42,11 @@ TrackWidth1=0.15
 TrackWidth2=0.15
 TrackWidth3=0.2
 TrackWidth4=0.2611
-TrackWidth5=0.2933
-TrackWidth6=0.3
+TrackWidth5=0.3
 ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.5
 ViaDrill2=0.25
-ViaDiameter3=0.6
-ViaDrill3=0.3
-ViaDiameter4=0.8
-ViaDrill4=0.6
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -258,13 +263,3 @@ uViaDrill=0.1
 dPairWidth=0.261112
 dPairGap=0.2032
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=D:/Programs/KiCad/empty.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
