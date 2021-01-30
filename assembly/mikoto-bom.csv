@@ -13,8 +13,8 @@ Comment,Designator,Footprint,LCSC Part #
 "BLUE Light emitting diode, small symbol",D1,LED_0603_1608Metric,C72041
 "MSK4010 Schottky diode, small symbol","D2,D4",D_SOD-523,C345958
 "ORANGE Light emitting diode, small symbol",D3,LED_0603_1608Metric,C2286
-logo_front Mounting Hole without connection,DUMMY1,akami-logo,
-logo_back Mounting Hole without connection,DUMMY2,akami-logo,
+logo_front Mounting Hole without connection,DUMMY1,mikoto-logo,
+logo_back Mounting Hole without connection,DUMMY2,mikoto-logo,
 mousebite_left Mounting Hole without connection,DUMMY3,mouse-bite-2mm-slot-one-sided,
 mousebite_right Mounting Hole without connection,DUMMY4,mouse-bite-2mm-slot-one-sided,
 USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,

@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name akami)(type Legacy)(uri ${KIPRJMOD}/lib/akami.lib)(options "")(descr ""))
-  (lib (name nrfmicro)(type Legacy)(uri ${KIPRJMOD}/lib/nrfmicro.lib)(options "")(descr "")(disabled))
+  (lib (name mikoto)(type Legacy)(uri ${KIPRJMOD}/lib/mikoto.lib)(options "")(descr ""))
 )

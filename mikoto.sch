@@ -643,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 5500 9450 5500
 $Comp
-L akami:USB_C_Receptacle_USB2.0 J1
+L mikoto:USB_C_Receptacle_USB2.0 J1
 U 1 1 600E09D4
 P 13700 3850
 F 0 "J1" H 13807 4717 50  0000 C CNN
@@ -812,7 +812,7 @@ Wire Wire Line
 Wire Wire Line
 	14350 4000 14600 4000
 $Comp
-L akami:ProMicro_2 U4
+L mikoto:ProMicro_2 U4
 U 1 1 6048FFC1
 P 14350 6350
 F 0 "U4" H 14350 6750 50  0000 C CNN
@@ -1523,7 +1523,7 @@ U 1 1 60851AB5
 P 14650 7950
 F 0 "DUMMY1" H 14750 7996 50  0000 L CNN
 F 1 "logo_front" H 14750 7905 50  0000 L CNN
-F 2 "footprints:akami-logo" H 14650 7950 50  0001 C CNN
+F 2 "footprints:mikoto-logo" H 14650 7950 50  0001 C CNN
 F 3 "~" H 14650 7950 50  0001 C CNN
 	1    14650 7950
 	1    0    0    -1  
@@ -1534,7 +1534,7 @@ U 1 1 60851E8B
 P 14650 8150
 F 0 "DUMMY2" H 14750 8196 50  0000 L CNN
 F 1 "logo_back" H 14750 8105 50  0000 L CNN
-F 2 "footprints:akami-logo" H 14650 8150 50  0001 C CNN
+F 2 "footprints:mikoto-logo" H 14650 8150 50  0001 C CNN
 F 3 "~" H 14650 8150 50  0001 C CNN
 	1    14650 8150
 	1    0    0    -1  

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:\Projects\akami\akami.sch</source>
-    <date>29/01/2021 15:48:18</date>
+    <source>D:\Projects\mikoto\mikoto.sch</source>
+    <date>30/01/2021 16:38:55</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>akami.sch</source>
+        <source>mikoto.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -353,7 +353,7 @@
       <value>USB_C_Receptacle_USB2.0</value>
       <footprint>footprints:USB-C_C168688</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
-      <libsource lib="akami" part="USB_C_Receptacle_USB2.0" description=""/>
+      <libsource lib="mikoto" part="USB_C_Receptacle_USB2.0" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>600E09D4</tstamp>
     </comp>
@@ -382,7 +382,7 @@
     <comp ref="U4">
       <value>ProMicro_2</value>
       <footprint>footprints:akami-pins</footprint>
-      <libsource lib="akami" part="ProMicro_2" description=""/>
+      <libsource lib="mikoto" part="ProMicro_2" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6048FFC1</tstamp>
     </comp>
@@ -499,7 +499,7 @@
     </comp>
     <comp ref="DUMMY1">
       <value>logo_front</value>
-      <footprint>footprints:akami-logo</footprint>
+      <footprint>footprints:mikoto-logo</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
@@ -507,7 +507,7 @@
     </comp>
     <comp ref="DUMMY2">
       <value>logo_back</value>
-      <footprint>footprints:akami-logo</footprint>
+      <footprint>footprints:mikoto-logo</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1023,7 +1023,7 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="akami" part="ProMicro_2">
+    <libpart lib="mikoto" part="ProMicro_2">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ProMicro_2</field>
@@ -1055,7 +1055,7 @@
         <pin num="24" name="RAW" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="akami" part="USB_C_Receptacle_USB2.0">
+    <libpart lib="mikoto" part="USB_C_Receptacle_USB2.0">
       <footprints>
         <fp>USB*C*Receptacle*</fp>
       </footprints>
@@ -1101,8 +1101,8 @@
     <library logical="Transistor_FET">
       <uri>D:\Programs\KiCad\share\kicad\library/Transistor_FET.lib</uri>
     </library>
-    <library logical="akami">
-      <uri>D:\Projects\akami/lib/akami.lib</uri>
+    <library logical="mikoto">
+      <uri>D:\Projects\mikoto/lib/mikoto.lib</uri>
     </library>
   </libraries>
   <nets>

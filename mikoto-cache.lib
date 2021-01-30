@@ -377,11 +377,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# akami_ProMicro_2
+# mikoto_ProMicro_2
 #
-DEF akami_ProMicro_2 U 0 40 Y Y 1 F N
+DEF mikoto_ProMicro_2 U 0 40 Y Y 1 F N
 F0 "U" 0 700 50 H V C CNN
-F1 "akami_ProMicro_2" 0 -700 50 H V C CNN
+F1 "mikoto_ProMicro_2" 0 -700 50 H V C CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" -50 100 50 H I C CNN
 DRAW
@@ -413,11 +413,11 @@ X D6(PD7) 9 -650 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# akami_USB_C_Receptacle_USB2.0
+# mikoto_USB_C_Receptacle_USB2.0
 #
-DEF akami_USB_C_Receptacle_USB2.0 J 0 40 Y Y 1 F N
+DEF mikoto_USB_C_Receptacle_USB2.0 J 0 40 Y Y 1 F N
 F0 "J" -400 750 50 H V L CNN
-F1 "akami_USB_C_Receptacle_USB2.0" 750 750 50 H V R CNN
+F1 "mikoto_USB_C_Receptacle_USB2.0" 750 750 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST

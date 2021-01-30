@@ -643,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 5500 9450 5500
 $Comp
-L akami:USB_C_Receptacle_USB2.0 J1
+L mikoto:USB_C_Receptacle_USB2.0 J1
 U 1 1 600E09D4
 P 13700 3850
 F 0 "J1" H 13807 4717 50  0000 C CNN
@@ -812,7 +812,7 @@ Wire Wire Line
 Wire Wire Line
 	14350 4000 14600 4000
 $Comp
-L akami:ProMicro_2 U4
+L mikoto:ProMicro_2 U4
 U 1 1 6048FFC1
 P 14350 6350
 F 0 "U4" H 14350 6750 50  0000 C CNN
@@ -1537,50 +1537,6 @@ F 1 "logo_back" H 14750 8105 50  0000 L CNN
 F 2 "footprints:akami-logo" H 14650 8150 50  0001 C CNN
 F 3 "~" H 14650 8150 50  0001 C CNN
 	1    14650 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole DUMMY5
-U 1 1 60BBBC37
-P 14650 8750
-F 0 "DUMMY5" H 14750 8796 50  0000 L CNN
-F 1 "tooling_hole" H 14750 8705 50  0000 L CNN
-F 2 "footprints:jlcpcb_tooling_hole" H 14650 8750 50  0001 C CNN
-F 3 "~" H 14650 8750 50  0001 C CNN
-	1    14650 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole DUMMY6
-U 1 1 60BBDE3A
-P 14650 8950
-F 0 "DUMMY6" H 14750 8996 50  0000 L CNN
-F 1 "tooling_hole" H 14750 8905 50  0000 L CNN
-F 2 "footprints:jlcpcb_tooling_hole" H 14650 8950 50  0001 C CNN
-F 3 "~" H 14650 8950 50  0001 C CNN
-	1    14650 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole DUMMY8
-U 1 1 60BBE1CE
-P 14650 9350
-F 0 "DUMMY8" H 14750 9396 50  0000 L CNN
-F 1 "tooling_hole" H 14750 9305 50  0000 L CNN
-F 2 "footprints:jlcpcb_tooling_hole" H 14650 9350 50  0001 C CNN
-F 3 "~" H 14650 9350 50  0001 C CNN
-	1    14650 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole DUMMY7
-U 1 1 60BBE5E3
-P 14650 9150
-F 0 "DUMMY7" H 14750 9196 50  0000 L CNN
-F 1 "tooling_hole" H 14750 9105 50  0000 L CNN
-F 2 "footprints:jlcpcb_tooling_hole" H 14650 9150 50  0001 C CNN
-F 3 "~" H 14650 9150 50  0001 C CNN
-	1    14650 9150
 	1    0    0    -1  
 $EndComp
 $Comp

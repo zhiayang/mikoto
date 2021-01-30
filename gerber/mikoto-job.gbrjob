@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-01-29T15:47:37+08:00"
+    "CreationDate":  "2021-01-30T16:38:38+08:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "akami",
-      "GUID": "616b616d-692e-46b6-9963-61645f706362",
+      "Name": "mikoto",
+      "GUID": "6d696b6f-746f-42e6-9b69-6361645f7063",
       "Revision": "rev?"
     },
     "Size":
@@ -48,57 +48,57 @@
   "FilesAttributes":
   [
     {
-      "Path":  "akami-F_Cu.gbr",
+      "Path":  "mikoto-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-In1_Cu.gbr",
+      "Path":  "mikoto-In1_Cu.gbr",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-In2_Cu.gbr",
+      "Path":  "mikoto-In2_Cu.gbr",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-B_Cu.gbr",
+      "Path":  "mikoto-B_Cu.gbr",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-F_Paste.gbr",
+      "Path":  "mikoto-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-B_Paste.gbr",
+      "Path":  "mikoto-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-F_SilkS.gbr",
+      "Path":  "mikoto-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-B_SilkS.gbr",
+      "Path":  "mikoto-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "akami-F_Mask.gbr",
+      "Path":  "mikoto-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "akami-B_Mask.gbr",
+      "Path":  "mikoto-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "akami-Edge_Cuts.gbr",
+      "Path":  "mikoto-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
