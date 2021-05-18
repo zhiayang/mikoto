@@ -1867,7 +1867,7 @@ U 1 1 60C18748
 P 11800 6400
 F 0 "NT3" H 11800 6219 50  0000 C CNN
 F 1 "Net-Tie_2" H 11800 6310 50  0000 C CNN
-F 2 "footprints:net-tie-2-tiny-longer" H 11800 6400 50  0001 C CNN
+F 2 "footprints:net-tie-2-0.3mm" H 11800 6400 50  0001 C CNN
 F 3 "~" H 11800 6400 50  0001 C CNN
 	1    11800 6400
 	-1   0    0    1   
@@ -1897,7 +1897,7 @@ U 1 1 60BD6C00
 P 11800 6100
 F 0 "NT2" H 11800 5919 50  0000 C CNN
 F 1 "Net-Tie_2" H 11800 6010 50  0000 C CNN
-F 2 "footprints:net-tie-2-tiny-longer" H 11800 6100 50  0001 C CNN
+F 2 "footprints:net-tie-2-0.3mm" H 11800 6100 50  0001 C CNN
 F 3 "~" H 11800 6100 50  0001 C CNN
 	1    11800 6100
 	-1   0    0    1   
