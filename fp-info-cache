@@ -1,4 +1,4 @@
-19092908139351622
+19099374792663888
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83055,6 +83055,20 @@ lily58_logo
 0
 0
 footprints
+mikoto-logo
+
+
+0
+0
+0
+footprints
+misaka-logo
+
+
+0
+0
+0
+footprints
 mouse-bite-2mm-slot-one-sided
 
 
@@ -83062,7 +83076,21 @@ mouse-bite-2mm-slot-one-sided
 0
 0
 footprints
+net-tie-2-0.3mm
+
+net tie
+0
+2
+2
+footprints
 net-tie-2-tiny
+
+net tie
+0
+2
+2
+footprints
+net-tie-2-tiny-longer
 
 net tie
 0
