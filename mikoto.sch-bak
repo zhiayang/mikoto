@@ -1096,7 +1096,7 @@ Text GLabel 6600 6450 2    50   Input ~ 0
 P0.31
 Text GLabel 15100 6300 2    50   Input ~ 0
 P0.29
-Text GLabel 15100 6200 2    50   Input ~ 0
+Text GLabel 13600 6700 0    50   Input ~ 0
 P0.31
 Wire Wire Line
 	15000 6300 15100 6300
@@ -1112,7 +1112,7 @@ Text GLabel 13600 6900 0    50   Input ~ 0
 P1.06
 Text GLabel 13600 6800 0    50   Input ~ 0
 P1.04
-Text GLabel 13600 6700 0    50   Input ~ 0
+Text GLabel 15100 6200 2    50   Input ~ 0
 P0.11
 Wire Wire Line
 	13700 6900 13600 6900

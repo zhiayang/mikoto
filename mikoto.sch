@@ -1090,7 +1090,7 @@ Text GLabel 15100 6400 2    50   Input ~ 0
 P0.02
 Wire Wire Line
 	15000 6400 15100 6400
-Text GLabel 6600 6250 2    50   Input ~ 0
+Text GLabel 6600 5850 2    50   Input ~ 0
 P0.29
 Text GLabel 6600 6450 2    50   Input ~ 0
 P0.31
@@ -1142,7 +1142,6 @@ Text GLabel 13600 6400 0    50   Input ~ 0
 P0.22
 NoConn ~ 6600 5450
 NoConn ~ 6600 5650
-NoConn ~ 6600 5850
 Wire Wire Line
 	13700 6400 13600 6400
 Text GLabel 6600 4850 2    50   Input ~ 0
@@ -1902,4 +1901,5 @@ F 3 "~" H 11800 6100 50  0001 C CNN
 	1    11800 6100
 	-1   0    0    1   
 $EndComp
+NoConn ~ 6600 6250
 $EndSCHEMATC
