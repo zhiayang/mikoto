@@ -1,5 +1,5 @@
 Comment,Designator,Footprint,LCSC Part #
-"4.7uF Unpolarized capacitor, small symbol","C1,C13,C14,C20,C21",C_0603_1608Metric,C19666
+"4.7uF Unpolarized capacitor, small symbol","C1,C13,C14,C20,C21,C25",C_0603_1608Metric,C19666
 "100nF Unpolarized capacitor, small symbol","C2,C3,C4,C10",C_0402_1005Metric,C1525
 "1pF Unpolarized capacitor, small symbol","C5,C9",C_0402_1005Metric,C1550
 "10pF Unpolarized capacitor, small symbol","C6,C7",C_0402_1005Metric,C32949
@@ -11,7 +11,7 @@ Comment,Designator,Footprint,LCSC Part #
 "10nF Unpolarized capacitor, small symbol",C19,C_0402_1005Metric,C15195
 "1.5pF Unpolarized capacitor, small symbol",C22,C_0402_1005Metric,C1552
 "BLUE Light emitting diode, small symbol",D1,LED_0603_1608Metric,C72041
-"MSK4010 Schottky diode, small symbol","D2,D4",D_SOD-523,C345958
+"MSK4010 Schottky diode, small symbol",D2,D_SOD-523,C345958
 "ORANGE Light emitting diode, small symbol",D3,LED_0603_1608Metric,C2286
 logo_front Mounting Hole without connection,DUMMY1,mikoto-logo,
 logo_back Mounting Hole without connection,DUMMY2,mikoto-logo,
@@ -21,10 +21,11 @@ USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,
 "Conn_01x01 Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)","J2,J3",1pin_conn,
 "3.9nH Inductor, small symbol",L1,L_0402_1005Metric,C14033
 "15nH Inductor, small symbol",L2,L_0402_1005Metric,C27143
-"10uH Inductor, small symbol",L3,L_0603_1608Metric,C1035
+"10uH Inductor, small symbol","L3,L4",L_0603_1608Metric,C1035
 "Net-Tie_2 Net tie, 2 pins",NT1,net-tie-2-tiny,
-"DMP21D0UT -3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23","Q1,Q2,Q3",SOT-523,C150733
-"1M Resistor, small symbol","R1,R2,R3",R_0402_1005Metric,C26083
+"Net-Tie_2 Net tie, 2 pins","NT2,NT3",net-tie-2-0.3mm,
+"AO3401A -3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23",Q2,SOT-23,C150733
+"1M Resistor, small symbol",R3,R_0402_1005Metric,C26083
 "10M Resistor, small symbol",R4,R_0402_1005Metric,C26082
 "1k Resistor, small symbol","R5,R8",R_0402_1005Metric,C11702
 "100k Resistor, small symbol",R6,R_0402_1005Metric,C25741

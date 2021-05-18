@@ -1562,8 +1562,6 @@ Wire Notes Line
 	12950 5350 12950 7750
 Text GLabel 13600 5600 0    50   Input ~ 0
 EXT_5V
-Text GLabel 15100 5600 2    50   Input ~ 0
-VBUS
 Text GLabel 10525 6350 1    50   Input ~ 0
 VBUS
 Wire Wire Line
@@ -1576,14 +1574,14 @@ Connection ~ 10525 6850
 Wire Wire Line
 	10525 6850 10525 6950
 $Comp
-L Transistor_FET:IRLML9301 Q2
+L Device:Q_PMOS_GSD Q2
 U 1 1 60065EE0
 P 10900 6600
 F 0 "Q2" H 11100 6675 50  0000 L CNN
-F 1 "AO3401A" H 11100 6600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11100 6525 50  0001 L CIN
+F 1 "DMP2165UW" H 11100 6600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 11100 6525 50  0001 L CIN
 F 3 "" H 10900 6600 50  0001 L CNN
-F 4 "C150733" H 10900 6600 50  0001 C CNN "LCSC Part"
+F 4 "C388477" H 10900 6600 50  0001 C CNN "LCSC Part"
 	1    10900 6600
 	1    0    0    -1  
 $EndComp
@@ -1667,29 +1665,9 @@ F 4 "C345958" H 10725 6850 50  0001 C CNN "LCSC Part"
 	1    10725 6850
 	-1   0    0    1   
 $EndComp
-$Comp
-L Regulator_Linear:LP5912-3.3DRV U3
-U 1 1 60D2A9A8
-P 12125 6950
-F 0 "U3" H 12125 7317 50  0000 C CNN
-F 1 "LP5912-3.3DRV" H 12125 7226 50  0000 C CNN
-F 2 "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias" H 12125 7300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lp5912.pdf" H 12125 7450 50  0001 C CNN
-F 4 "C134121" H 12125 6950 50  0001 C CNN "LCSC Part"
-	1    12125 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11650 7050 11725 7050
-Wire Wire Line
-	12525 6850 12675 6850
-Wire Wire Line
-	12525 7050 12575 7050
 Wire Wire Line
 	11225 6850 11225 6950
 Connection ~ 11225 6850
-Wire Wire Line
-	12225 7250 12225 7275
 Wire Wire Line
 	11225 7250 11225 7150
 Wire Wire Line
@@ -1703,19 +1681,7 @@ Wire Wire Line
 	12675 6650 12675 6850
 Wire Wire Line
 	11000 6350 11000 6400
-Wire Wire Line
-	12125 7250 12125 7275
-Wire Wire Line
-	12125 7275 12225 7275
-Connection ~ 12225 7275
-Wire Wire Line
-	12225 7275 12575 7275
-Wire Wire Line
-	12575 7050 12575 7275
-Wire Wire Line
-	12125 7325 12125 7275
-Connection ~ 12125 7275
-Text GLabel 11650 7125 3    50   Input ~ 0
+Text GLabel 11700 7050 3    50   Input ~ 0
 PPH_VCC_CTRL
 Wire Wire Line
 	14100 7625 14300 7625
@@ -1832,8 +1798,6 @@ Wire Wire Line
 	8700 3850 8850 3850
 Wire Wire Line
 	9050 3850 9125 3850
-Wire Wire Line
-	11650 7125 11650 7050
 Text GLabel 11950 6400 2    50   Input ~ 0
 VDD_HV
 Text GLabel 12675 6650 1    50   Input ~ 0
@@ -1882,8 +1846,6 @@ Wire Wire Line
 Wire Wire Line
 	11550 6850 11550 6400
 Connection ~ 11550 6850
-Wire Wire Line
-	11550 6850 11725 6850
 Connection ~ 11550 6400
 NoConn ~ 6600 7550
 Wire Wire Line
@@ -1902,4 +1864,28 @@ F 3 "~" H 11800 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 6600 6250
+Text GLabel 15100 5600 2    50   Input ~ 0
+VBUS
+NoConn ~ 11000 4250
+$Comp
+L Regulator_Linear:AP2112K-3.3 U3
+U 1 1 6128CF57
+P 12125 6950
+F 0 "U3" H 12125 7292 50  0000 C CNN
+F 1 "AP2112K-3.3" H 12125 7201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 12125 7275 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 12125 7050 50  0001 C CNN
+	1    12125 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12125 7250 12125 7325
+Wire Wire Line
+	11700 7050 11700 6950
+Wire Wire Line
+	11700 6950 11825 6950
+Wire Wire Line
+	11550 6850 11825 6850
+Wire Wire Line
+	12425 6850 12675 6850
 $EndSCHEMATC
