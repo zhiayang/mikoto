@@ -1091,11 +1091,11 @@ P0.02
 Wire Wire Line
 	15000 6400 15100 6400
 Text GLabel 6600 5850 2    50   Input ~ 0
-P0.29
+P0.25
 Text GLabel 6600 6450 2    50   Input ~ 0
 P0.31
 Text GLabel 15100 6300 2    50   Input ~ 0
-P0.29
+P0.25
 Text GLabel 13600 6700 0    50   Input ~ 0
 P0.31
 Wire Wire Line
@@ -1561,8 +1561,6 @@ Wire Notes Line
 Wire Notes Line
 	12950 5350 12950 7750
 Text GLabel 13600 5600 0    50   Input ~ 0
-VBUS
-Text GLabel 15100 5600 2    50   Input ~ 0
 EXT_5V
 Text GLabel 10525 6350 1    50   Input ~ 0
 VBUS
@@ -1902,4 +1900,7 @@ F 3 "~" H 11800 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 6600 6250
+Text GLabel 15100 5600 2    50   Input ~ 0
+VBUS
+NoConn ~ 11000 4250
 $EndSCHEMATC
