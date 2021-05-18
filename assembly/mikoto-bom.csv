@@ -24,7 +24,7 @@ USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,
 "10uH Inductor, small symbol","L3,L4",L_0603_1608Metric,C1035
 "Net-Tie_2 Net tie, 2 pins",NT1,net-tie-2-tiny,
 "Net-Tie_2 Net tie, 2 pins","NT2,NT3",net-tie-2-0.3mm,
-"AO3401A -3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23",Q2,SOT-23,C150733
+"DMP2165UW P-MOSFET transistor, gate/source/drain",Q2,SOT-323_SC-70,C388477
 "1M Resistor, small symbol",R3,R_0402_1005Metric,C26083
 "10M Resistor, small symbol",R4,R_0402_1005Metric,C26082
 "1k Resistor, small symbol","R5,R8",R_0402_1005Metric,C11702
@@ -36,7 +36,7 @@ TestPoint test point,"TP1,TP2,TP3",TestPoint_Pad_1.0x1.0mm,
 TestPoint test point,TP4,circular-pad-0.3mm,
 "nRF52840 Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73",U1,Nordic_AQFN-73-1EP_7x7mm_P0.5mm,C190794
 "TP4054 Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package",U2,SOT-23-5,C32574
-"LP5912-3.3DRV 500-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, WSON-6",U3,WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias,C134121
+"AP2112K-3.3 600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5",U3,SOT-23-5,C51118
 ProMicro_2 ,U4,akami-pins,
 "32MHz Four pin crystal, GND on pins 2 and 4, small symbol",Y1,Crystal_SMD_2016-4Pin_2.0x1.6mm,C254298
 "32.768 kHz Two pin crystal, small symbol",Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
