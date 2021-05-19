@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name mikoto)(type Legacy)(uri ${KIPRJMOD}/lib/mikoto.lib)(options "")(descr ""))
+  (lib (name "mikoto")(type "KiCad")(uri "${KIPRJMOD}/lib/mikoto.kicad_sym")(options "")(descr ""))
 )
