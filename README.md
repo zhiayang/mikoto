@@ -5,14 +5,14 @@ nRF52840 microcontroller, in a pro-micro footprint.
 ### what
 
 1. VDDH power path (5V USB power, and/or 3.7V Li-ion battery)
-2. designed for split keyboards with shared power (currently broken on rev 4.7)
-3. ???? literally nothing special
+2. designed for split keyboards, sending 4.5V (via `EXT_5V`) over the TRRS
+3. supports charging the secondary half from the USB-connected half for splits
 
-Revision 4.7:
+note that the project files use kicad nightly (5.99).
+
+Revision 4.7, assembled at JLCPCB:
 
 ![rev-4.7](misc/rev-4.7.png)
-
-
 
 
 ### problems:
