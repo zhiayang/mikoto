@@ -1,4 +1,4 @@
-##　みこと
+## みこと
 
 nRF52840 microcontroller, in a pro-micro footprint.
 
