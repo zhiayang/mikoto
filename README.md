@@ -1,12 +1,13 @@
 ## みこと
 
-nRF52840 microcontroller, in a pro-micro footprint, inspired by [nrfMicro](https://github.com/joric/nrfmicro) and [nice!nano](https://nicekeyboards.com/nice-nano).
+nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nrfMicro](https://github.com/joric/nrfmicro) and [nice!nano](https://nicekeyboards.com/nice-nano).
 
 ### what
 
 1. VDDH power path (5V USB power, and/or 3.7V Li-ion battery)
 2. designed for split keyboards, sending 4.5V (via `EXT_5V`) over the TRRS
 3. supports charging the secondary half from the USB-connected half for splits
+4. software controllable battery charge current (off, ~100mA, ~250mA, ~350mA)
 
 Note that the project files use kicad nightly (5.99).
 
@@ -16,8 +17,8 @@ Note that the project files use kicad nightly (5.99).
 Currently, only revision 4.7 has been assembled with JLC's SMT service. Specs:
 
 - 4 layer board, 1.6mm
-- ENIG plating
 - impedance controlled, 7628 stackup
+- ENIG plating
 
 Everything else should be standard. ENIG is used because HASL might be too uneven for the weird aQFN footprint (basically an LGA) of the nRF52840.
 
