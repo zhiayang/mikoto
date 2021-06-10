@@ -1,2 +1,5 @@
 mikoto-backups/
 flashbed/mikoto-flashbed-backups
+*.gbr
+*.gbrjob
+*.drl

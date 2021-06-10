@@ -52,7 +52,7 @@
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
@@ -80,7 +80,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/")
+      (outputdirectory "gerbers/")
     )
   )
 

@@ -3582,7 +3582,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 337.185 192.405 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005ff7dae1)
     (property "Reference" "TP3" (id 0) (at 338.5821 193.4856 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3600,7 +3600,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 344.17 192.405 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-0000607aa685)
     (property "Reference" "TP2" (id 0) (at 345.5671 193.4856 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3618,7 +3618,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 351.155 192.405 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-0000607a961e)
     (property "Reference" "TP1" (id 0) (at 352.5521 193.4856 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3636,7 +3636,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 358.14 189.865 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e88c621e-83ab-40d1-af4d-03398ddf66d0)
     (property "Reference" "TP5" (id 0) (at 359.5371 187.2626 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3654,7 +3654,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 368.3 192.405 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e9ccc499-9f2a-4d73-9806-657b799fadd1)
     (property "Reference" "TP4" (id 0) (at 369.6971 193.4856 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3672,7 +3672,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 375.285 192.405 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid ed2e45c3-2f72-4ead-a43a-5b251da02e85)
     (property "Reference" "TP6" (id 0) (at 376.6821 193.4856 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4390,7 +4390,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 372.11 201.93 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060851ab5)
     (property "Reference" "DUMMY1" (id 0) (at 374.65 200.7616 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4407,7 +4407,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 372.11 207.01 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060851e8b)
     (property "Reference" "DUMMY2" (id 0) (at 374.65 205.8416 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4424,7 +4424,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 372.11 212.09 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006084fdb7)
     (property "Reference" "DUMMY3" (id 0) (at 374.65 210.9216 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4441,7 +4441,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 372.11 217.17 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060850a2d)
     (property "Reference" "DUMMY4" (id 0) (at 374.65 216.0016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4520,7 +4520,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 353.06 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006009cb51)
     (property "Reference" "J3" (id 0) (at 354.965 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4538,7 +4538,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 375.92 142.24 180) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006009b921)
     (property "Reference" "J2" (id 0) (at 374.015 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5058,7 +5058,7 @@
   )
 
   (symbol (lib_id "Device:Antenna") (at 58.42 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid c83390f8-5e8c-4900-870a-9ca7517b9867)
     (property "Reference" "AE1" (id 0) (at 60.4521 99.0611 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5190,7 +5190,7 @@
   )
 
   (symbol (lib_id "mikoto:ProMicro_2") (at 364.49 161.29 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006048ffc1)
     (property "Reference" "U4" (id 0) (at 364.49 151.13 0))
     (property "Value" "ProMicro_2" (id 1) (at 364.49 153.67 0))

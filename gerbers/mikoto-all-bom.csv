@@ -1,5 +1,5 @@
 Comment,Designator,Footprint,LCSC Part #
-"4.7uF Unpolarized capacitor, small symbol","C1,C13,C14,C20,C21,C25",C_0603_1608Metric,C19666
+"4.7uF Unpolarized capacitor, small symbol","C1,C13,C14,C20,C25",C_0603_1608Metric,C19666
 "100nF Unpolarized capacitor, small symbol","C2,C3,C4,C10",C_0402_1005Metric,C1525
 "1pF Unpolarized capacitor, small symbol","C5,C9",C_0402_1005Metric,C1550
 "10pF Unpolarized capacitor, small symbol","C6,C7",C_0402_1005Metric,C32949
@@ -9,34 +9,28 @@ Comment,Designator,Footprint,LCSC Part #
 "47nF Unpolarized capacitor, small symbol",C16,C_0603_1608Metric,C1622
 "15pF Unpolarized capacitor, small symbol","C17,C18",C_0402_1005Metric,C1548
 "10nF Unpolarized capacitor, small symbol",C19,C_0402_1005Metric,C15195
+"4.7uF Unpolarized capacitor, small symbol",C21,C_0402_1005Metric,C23733
 "1.5pF Unpolarized capacitor, small symbol",C22,C_0402_1005Metric,C1552
 "BLUE Light emitting diode, small symbol",D1,LED_0603_1608Metric,C72041
-"MSK4010 Schottky diode, small symbol",D2,D_SOD-523,C345958
-"ORANGE Light emitting diode, small symbol",D3,LED_0603_1608Metric,C2286
-logo_front Mounting Hole without connection,DUMMY1,mikoto-logo,
-logo_back Mounting Hole without connection,DUMMY2,mikoto-logo,
-mousebite_left Mounting Hole without connection,DUMMY3,mouse-bite-2mm-slot-one-sided,
-mousebite_right Mounting Hole without connection,DUMMY4,mouse-bite-2mm-slot-one-sided,
-USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,
-"Conn_01x01 Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)","J2,J3",1pin_conn,
+"PMEG2010AEB Schottky diode, small symbol","D2,D4,D5",D_SOD-523,C282563
+"ORANGE Light emitting diode, small symbol",D3,LED_0603_1608Metric,C72038
+USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,C168688
 "3.9nH Inductor, small symbol",L1,L_0402_1005Metric,C14033
 "15nH Inductor, small symbol",L2,L_0402_1005Metric,C27143
 "10uH Inductor, small symbol","L3,L4",L_0603_1608Metric,C1035
 "Net-Tie_2 Net tie, 2 pins",NT1,net-tie-2-tiny,
-"Net-Tie_2 Net tie, 2 pins","NT2,NT3",net-tie-2-0.3mm,
+"Net-Tie_2 Net tie, 2 pins",NT3,net-tie-2-0.3mm,
 "DMP2165UW P-MOSFET transistor, gate/source/drain",Q2,SOT-323_SC-70,C388477
+"3.9k Resistor, small symbol",R1,R_0402_1005Metric,C51721
 "1M Resistor, small symbol",R3,R_0402_1005Metric,C26083
 "10M Resistor, small symbol",R4,R_0402_1005Metric,C26082
-"1k Resistor, small symbol","R5,R8",R_0402_1005Metric,C11702
-"100k Resistor, small symbol",R6,R_0402_1005Metric,C25741
+"1.5k Resistor, small symbol","R5,R8",R_0402_1005Metric,C25867
+"200k Resistor, small symbol",R6,R_0402_1005Metric,C25764
 "10k Resistor, small symbol",R7,R_0402_1005Metric,C25744
 "5.1k Resistor, small symbol","R9,R10",R_0402_1005Metric,C25905
 "3M Resistor, small symbol",R11,R_0603_1608Metric,C23156
-TestPoint test point,"TP1,TP2,TP3",TestPoint_Pad_1.0x1.0mm,
-TestPoint test point,TP4,circular-pad-0.3mm,
 "nRF52840 Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73",U1,Nordic_AQFN-73-1EP_7x7mm_P0.5mm,C190794
 "TP4054 Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package",U2,SOT-23-5,C32574
-"AP2112K-3.3 600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5",U3,SOT-23-5,C51118
-ProMicro_2 ,U4,akami-pins,
+"AP7365-33WG 600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5",U3,SOT-23-5,C150742
 "32MHz Four pin crystal, GND on pins 2 and 4, small symbol",Y1,Crystal_SMD_2016-4Pin_2.0x1.6mm,C254298
 "32.768 kHz Two pin crystal, small symbol",Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
