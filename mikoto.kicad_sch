@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid 2869c312-473c-4382-b9bb-cb6c060982a3)
 
@@ -813,7 +813,7 @@
           (number "AC11" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -33.02 -43.18 0) (length 5.08)
-          (name "P0.18/~RESET" (effects (font (size 1.27 1.27))))
+          (name "P0.18/~{RESET}" (effects (font (size 1.27 1.27))))
           (number "AC13" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 33.02 17.78 180) (length 5.08)
