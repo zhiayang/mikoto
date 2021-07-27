@@ -407,8 +407,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "mikoto.step",
+      "vrml": "mikoto.wrl"
     },
     "page_layout_descr_file": "empty.kicad_wks"
   },
