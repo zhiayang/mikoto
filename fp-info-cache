@@ -1,4 +1,4 @@
-19044980227687630
+19046608085220433
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82806,6 +82806,13 @@ footprints
 Inductor_0603_1608M-nosilk
 Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 inductor
+0
+2
+2
+footprints
+LED_1206_3216M_Castellated-nosilk
+LED SMD 1206 (3216 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
 0
 2
 2
