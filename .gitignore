@@ -1,5 +1,6 @@
 mikoto-backups/
 render/
+ibom/
 flashbed/mikoto-flashbed-backups
 *.gbr
 *.gbrjob
