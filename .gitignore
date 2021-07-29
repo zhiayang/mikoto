@@ -6,3 +6,4 @@ flashbed/mikoto-flashbed-backups
 *.gbrjob
 *.drl
 fp-info-cache
+flashbed/fp-info-cache

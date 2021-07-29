@@ -3008,6 +3008,10 @@
     (uuid c94c3f64-2045-4846-a6d0-e6f9cb17cc91)
   )
 
+  (label "ANT" (at 67.31 105.41 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ef78a041-5e69-432e-80a0-7cbfab2a987b)
+  )
   (label "CC1" (at 363.22 87.63 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6bca2235-c7a1-4dc4-a603-90f992a70c1d)
