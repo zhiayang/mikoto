@@ -1,4 +1,4 @@
-19046608085220433
+19048235628848139
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82837,6 +82837,13 @@ resistor
 0
 2
 2
+footprints
+TestPoint_Pad_D1.0mm-nosilk
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
 footprints
 UDFN-6_1.2x1.0mm_P0.4mm
 
