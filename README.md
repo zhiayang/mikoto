@@ -22,7 +22,7 @@ EXT_5V is connected to the battery charger, so if you wire your TRRS (for split 
 
 All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification (assuming you are good enough :D). A stencil is mandatory --- get a 100µm (0.1mm) thick stencil.
 
-![revision 5.14](./misc/rev-5.14.png)
+<center><img src="./misc/rev-5.14.png" width="300px"></center>
 
 From rev 5 onwards, mikoto is no longer optimised for JLCPCB SMT service. There are still LCSC part numbers (because I still buy the parts from LCSC), but those might not be available on JLC. Also note that the "wings/tabs" are removed, so you need to modify the board so it meets the minimum 20mm width.
 
