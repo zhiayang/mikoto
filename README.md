@@ -5,43 +5,44 @@ nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nrfMicro](h
 ### what
 
 1. VDDH power path (5V USB power, and/or 3.7V Li-ion battery)
-2. designed for split keyboards, sending 4.5V (via `EXT_5V`) over the TRRS
-3. supports charging the secondary half from the USB-connected half for splits
-4. software controllable battery charge current (off, ~100mA, ~250mA, ~350mA)
+2. software controllable battery charge current (off, ~100mA, ~250mA, ~350mA)
+3. ESD protection on USB lines, and 500mA fuse protection for VBUS and EXT_5V
+4. "Bidirectional" power over EXT_5V
 
 Note that the project files use kicad nightly (5.99).
+
+### ext_5v
+
+The EXT_5V pin acts both as a power input and a power output; normally it is an input. When VBUS is high (ie. USB is connected), it will output VBUS (minus a schottky drop, ~0.3V).
+
+EXT_5V is connected to the battery charger, so if you wire your TRRS (for split keyboards) to it (instead of a 3.3V VCC line), you can charge the battery on both halves by only plugging in one half to USB.
 
 
 ### assembly
 
-Currently, only revision 4.7 has been assembled with JLC's SMT service. Specs:
+All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification (assuming you are good enough :D). A stencil is mandatory --- get a 100µm (0.1mm) thick stencil.
 
-- 4 layer board, 1.6mm
-- impedance controlled, 7628 stackup
-- ENIG plating
+![revision 5.14](./misc/rev-5.14.png)
 
-Everything else should be standard. ENIG is used because HASL might be too uneven for the weird aQFN footprint (basically an LGA) of the nRF52840.
+From rev 5 onwards, mikoto is no longer optimised for JLCPCB SMT service. There are still LCSC part numbers (because I still buy the parts from LCSC), but those might not be available on JLC. Also note that the "wings/tabs" are removed, so you need to modify the board so it meets the minimum 20mm width.
 
-Revision 4.7, assembled at JLCPCB (June 2021):
+It would probably be a good idea to get an electropolished stencil; I can't get two prints a row to succeed without completely cleaning the stencil after the first print.
 
-![rev-4.7](misc/rev-4.7.png)
+There's no "component silkscreen" on the board except 4 lines to align the nRF chip, so using something like KiCad's [Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin is a good idea.
 
-No support will be provided for any problems faced if you decide to order and/or assemble a PCB.
+### problems
 
+For now, there are no problems inherent with the design, although I personally have yet to produce a board without any issues --- all related to GPIOs not being connected properly.
 
-### problems:
-
-#### rev 4.7
-1. battery power path is completely broken, don't use it
-2. both LEDs are way too bright, with 1k resistors
-3. antenna needs tuning, but this has to wait; it isn't that bad for now
-4. missing a ground pad on the back (along with the `VDD` pad) for SWD programming
-5. schottky diode (power path) may or may not overheat...
-
-Regarding the antenna: performance seems similar to the nice!nano, but I think it could be better with proper tuning.
-
-
+Notably, the radio works correctly, and antenna performance is quite improved from revision 4.
 
 ### license
 
-Licensed under the Apache 2.0 license, see [LICENSE](./LICENSE). Importantly, there is NO SUPPORT PROVIDED, IN ANY FORM, for this project. Order/print/assemble/whatever at your own risk.
+Licensed under the Apache 2.0 license, see [LICENSE](./LICENSE).
+
+If you encounter any problems, feel free to open an issue on this repo. However, I am *not obligated* to provide any support, and you undertake any assembly/manufacturing/purchasing **at your own risk**.
+
+> on an **AS IS** BASIS, **WITHOUT WARRANTIES** OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE.
+
+> In **no event** and under no legal theory, ..., shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work.
+
