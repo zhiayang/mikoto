@@ -22,7 +22,7 @@ EXT_5V is connected to the battery charger, so if you wire your TRRS (for split 
 
 All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification (assuming you are good enough :D). A stencil is mandatory --- get a 100µm (0.1mm) thick stencil.
 
-<center><img src="./misc/rev-5.14.png" width="300px"></center>
+<p align="center"><img src="./misc/rev-5.14.png" width="300px"></p>
 
 From rev 5 onwards, mikoto is no longer optimised for JLCPCB SMT service. There are still LCSC part numbers (because I still buy the parts from LCSC), but those might not be available on JLC. Also note that the "wings/tabs" are removed, so you need to modify the board so it meets the minimum 20mm width.
 
@@ -32,7 +32,12 @@ There's no "component silkscreen" on the board except 4 lines to align the nRF c
 
 ### problems
 
-For now, there are no problems inherent with the design, although I personally have yet to produce a board without any issues --- all related to GPIOs not being connected properly.
+There are no major problems as of now. Some minor ones exist, though:
+
+1. P1.11 is incorrectly labelled; it should be P1.10 (the schematic is also wrong here).
+2. C25 and C18 tend to "stick together" on their top-facing pad during reflow; not really a problem since both are GND, but may impact soldering on the bottom pad. Also ugly.
+3. Some "sensitive" signals (eg. reset) are routed under an inductor (L3), which can be avoided.
+4. Pad for the schottky (D5) seems to be a little too small.
 
 Notably, the radio works correctly, and antenna performance is quite improved from revision 4.
 
