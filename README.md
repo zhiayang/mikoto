@@ -41,6 +41,9 @@ There are no major problems as of now. Some minor ones exist, though:
 
 Notably, the radio works correctly, and antenna performance is quite improved from revision 4.
 
+
+Revision 5.17 (not manufactured/tested yet) fixes all the aforementioned problems.
+
 ### license
 
 Licensed under the Apache 2.0 license, see [LICENSE](./LICENSE).
