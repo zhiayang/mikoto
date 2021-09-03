@@ -1,6 +1,6 @@
 ## みこと
 
-nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nrfMicro](https://github.com/joric/nrfmicro) and [nice!nano](https://nicekeyboards.com/nice-nano).
+nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nRFMicro](https://github.com/joric/nrfmicro) and [nice!nano](https://nicekeyboards.com/nice-nano).
 
 ### what
 
@@ -20,29 +20,21 @@ EXT_5V is connected to the battery charger, so if you wire your TRRS (for split 
 
 ### assembly
 
-All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification (assuming you are good enough :D). A stencil is mandatory --- get a 100µm (0.1mm) thick stencil.
+All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification. A stencil is mandatory — get a 100µm (0.1mm) thick one.
 
-<p align="center"><img src="./misc/rev-5.14.png" width="300px"></p>
-
-From rev 5 onwards, mikoto is no longer optimised for JLCPCB SMT service. There are still LCSC part numbers (because I still buy the parts from LCSC), but those might not be available on JLC. Also note that the "wings/tabs" are removed, so you need to modify the board so it meets the minimum 20mm width.
-
-It would probably be a good idea to get an electropolished stencil; I can't get two prints a row to succeed without completely cleaning the stencil after the first print.
+<p align="center"><img src="./misc/rev-5.17.png" width="300px"></p>
 
 There's no "component silkscreen" on the board except 4 lines to align the nRF chip, so using something like KiCad's [Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin is a good idea.
 
+It's a good idea to get an electropolished stencil if you want to paste more than one board at a time, if not you will probably need to completely clean out the stencil before pasting another board.
+
+I used Chipquik SMD291AX paste for all the boards.
+
+
 ### problems
 
-There are no major problems as of now. Some minor ones exist, though:
+There are no known problems from revision 5.17 onwards. 5.19 and 5.20 are just minor tweaks to the inner ground plane and the paste layer, so the functionality remains identical.
 
-1. P1.11 is incorrectly labelled; it should be P1.10 (the schematic is also wrong here).
-2. C25 and C18 tend to "stick together" on their top-facing pad during reflow; not really a problem since both are GND, but may impact soldering on the bottom pad. Also ugly.
-3. Some "sensitive" signals (eg. reset) are routed under an inductor (L3), which can be avoided.
-4. Pad for the schottky (D5) seems to be a little too small.
-
-Notably, the radio works correctly, and antenna performance is quite improved from revision 4.
-
-
-Revision 5.17 (not manufactured/tested yet) fixes all the aforementioned problems.
 
 ### license
 
