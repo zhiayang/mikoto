@@ -2949,7 +2949,7 @@
     (effects (font (size 5.08 5.08)) (justify left bottom))
     (uuid f98f684e-0525-4551-9c3d-89a9ce5adcbb)
   )
-  (text "revision 5.19" (at 212.725 85.09 0)
+  (text "revision 5.20" (at 212.725 85.09 0)
     (effects (font (size 3.81 3.81)) (justify left bottom))
     (uuid b4d0efb7-4132-46f1-ae63-8d5f728cdfba)
   )
