@@ -20,15 +20,17 @@ EXT_5V is connected to the battery charger, so if you wire your TRRS (for split 
 
 ### assembly
 
+The PCB *should* be manufactured with an ENIG surface finish, but it *can* be done using HASL (in which case you should run a solder wick over all the pads first).
+
 All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification. A stencil is mandatory — get a 100µm (0.1mm) thick one.
 
-<p align="center"><img src="./misc/rev-5.17.png" width="300px"></p>
+<p align="center"><img src="./misc/rev-5.17.jpg" width="300px"></p>
 
 There's no "component silkscreen" on the board except 4 lines to align the nRF chip, so using something like KiCad's [Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin is a good idea.
 
 It's a good idea to get an electropolished stencil if you want to paste more than one board at a time, if not you will probably need to completely clean out the stencil before pasting another board.
 
-I used Chipquik SMD291AX paste for all the boards.
+I used Chipquik SMD291AX T4 paste for all the boards.
 
 
 ### problems
