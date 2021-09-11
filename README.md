@@ -24,7 +24,7 @@ The PCB *should* be manufactured with an ENIG surface finish, but it *can* be do
 
 All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification. A stencil is mandatory — get a 100µm (0.1mm) thick one.
 
-<p align="center"><img src="./misc/rev-5.17.jpg" width="300px"></p>
+<p align="center"><img src="./misc/rev-5.17.png" width="300px"></p>
 
 There's no "component silkscreen" on the board except 4 lines to align the nRF chip, so using something like KiCad's [Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin is a good idea.
 
