@@ -7,3 +7,4 @@ flashbed/mikoto-flashbed-backups
 *.drl
 fp-info-cache
 flashbed/fp-info-cache
+*.xml

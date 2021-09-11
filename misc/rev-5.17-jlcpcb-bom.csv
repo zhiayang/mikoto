@@ -1,0 +1,35 @@
+Comment,Designator,Footprint,LCSC Part #
+"4.7uF Unpolarized capacitor, small symbol","C1,C13,C14,C20,C24,C25,C26",Capacitor_0402_1005M-nosilk,C23733
+"100nF Unpolarized capacitor, small symbol","C2,C3,C4,C10",Capacitor_0402_1005M-nosilk,C1525
+"1pF Unpolarized capacitor, small symbol","C5,C9",Capacitor_0402_1005M-nosilk,C1550
+"15pF Unpolarized capacitor, small symbol","C6,C7,C17,C18",Capacitor_0402_1005M-nosilk,C1548
+"1uF Unpolarized capacitor, small symbol","C8,C15,C23",Capacitor_0402_1005M-nosilk,C52923
+"100pF Unpolarized capacitor, small symbol",C11,Capacitor_0402_1005M-nosilk,C1546
+"1nF Unpolarized capacitor, small symbol",C12,Capacitor_0402_1005M-nosilk,C1523
+"47nF Unpolarized capacitor, small symbol",C16,Capacitor_0402_1005M-nosilk,C26403
+"10nF Unpolarized capacitor, small symbol",C19,Capacitor_0402_1005M-nosilk,C15195
+"10uF Unpolarized capacitor, small symbol",C21,Capacitor_0603_1608M-nosilk,C19702
+"1.5pF Unpolarized capacitor, small symbol",C22,Capacitor_0402_1005M-nosilk,C1552
+"BLUE Light emitting diode, small symbol",D1,LED_0603_1608Metric,C72041
+"ORANGE Light emitting diode, small symbol",D3,LED_0603_1608Metric,C72038
+"PMEG4010CEJ Schottky diode, small symbol",D5,D_SOD-323F-nosilk,C50704
+"500mA hold Resettable fuse, polymeric positive temperature coefficient, small symbol",F1,Fuse_0402_1005Metric,C206938
+USB_C_Receptacle_USB2.0 ,J1,USB-C_C168688,C168688
+"3.9nH Inductor, small symbol",L1,Inductor_0402_1005M-nosilk,C14033
+"15nH Inductor, small symbol",L2,Inductor_0402_1005M-nosilk,C27143
+"10uH Inductor, small symbol","L3,L4",Inductor_0603_1608M-nosilk,C1035
+"Net-Tie_2 Net tie, 2 pins",NT1,net-tie-2-tiny,
+"3.9k Resistor, small symbol",R1,Resistor_0402_1005M-nosilk,C51721
+"2M Resistor, small symbol","R2,R3,R12",Resistor_0402_1005M-nosilk,C138014
+"10M Resistor, small symbol",R4,Resistor_0402_1005M-nosilk,C26082
+"1.5k Resistor, small symbol",R5,Resistor_0402_1005M-nosilk,C25867
+"10k Resistor, small symbol","R6,R7,R8",Resistor_0402_1005M-nosilk,C25744
+"5.1k Resistor, small symbol","R9,R10",Resistor_0402_1005M-nosilk,C25905
+"0R Resistor, small symbol",R11,Resistor_0402_1005M-nosilk,C17168
+"nRF52840 Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73",U1,AQFN-73-1EP_7x7mm_P0.5mm_NRF52840-custom,C1851953
+BQ24075/9 USB-Friendly Li-Ion Battery Charger and Power-Path Management,U2,VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm,C15464
+"XC6220B331MR 1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5",U3,SOT-23-5,C86534
+mikoto-pins ,U4,mikoto-pins,
+ESDR0502NMUTAG ,U5,UDFN-6_1.2x1.0mm_P0.4mm,C327480
+"32MHz Four pin crystal, GND on pins 2 and 4, small symbol",Y1,Crystal_SMD_2016-4Pin_2.0x1.6mm,C255896
+"32.768 kHz Two pin crystal, small symbol",Y2,Crystal_SMD_2012-2Pin_2.0x1.2mm,C93231

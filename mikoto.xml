@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>D:\Projects\mikoto\mikoto.kicad_sch</source>
-    <date>22/7/2021 5:03:23 pm</date>
-    <tool>Eeschema (5.99.0-11494-gaf90d47edc)</tool>
+    <date>11/9/2021 2:47:30 pm</date>
+    <tool>Eeschema (5.99.0-12063-ga3441a969d)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -26,16 +26,18 @@
   <components>
     <comp ref="C1">
       <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1784-1-ND</field>
-        <field name="LCSC Part">C368809</field>
-        <field name="Manufacturer Part">CL05A475KP5NRNC</field>
+        <f name="Digikey">1276-1784-1-ND</f>
+        <f name="JLC Part">C23733</f>
+        <f name="LCSC Part">C368809</f>
+        <f name="Manufacturer Part">CL05A475KP5NRNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C368809"/>
       <property name="Digikey" value="1276-1784-1-ND"/>
       <property name="Manufacturer Part" value="CL05A475KP5NRNC"/>
+      <property name="JLC Part" value="C23733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -43,16 +45,18 @@
     </comp>
     <comp ref="C2">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-6720-1-ND</field>
-        <field name="LCSC Part">C1525</field>
-        <field name="Manufacturer Part">CL05B104KA5NNNC</field>
+        <f name="Digikey">1276-6720-1-ND</f>
+        <f name="JLC Part">C1525</f>
+        <f name="LCSC Part">C1525</f>
+        <f name="Manufacturer Part">CL05B104KA5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C1525"/>
       <property name="Digikey" value="1276-6720-1-ND"/>
       <property name="Manufacturer Part" value="CL05B104KA5NNNC"/>
+      <property name="JLC Part" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -60,16 +64,18 @@
     </comp>
     <comp ref="C3">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-6720-1-ND</field>
-        <field name="LCSC Part">C1525</field>
-        <field name="Manufacturer Part">CL05B104KA5NNNC</field>
+        <f name="Digikey">1276-6720-1-ND</f>
+        <f name="JLC Part">C1525</f>
+        <f name="LCSC Part">C1525</f>
+        <f name="Manufacturer Part">CL05B104KA5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C1525"/>
       <property name="Digikey" value="1276-6720-1-ND"/>
       <property name="Manufacturer Part" value="CL05B104KA5NNNC"/>
+      <property name="JLC Part" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -77,16 +83,18 @@
     </comp>
     <comp ref="C4">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-6720-1-ND</field>
-        <field name="LCSC Part">C1525</field>
-        <field name="Manufacturer Part">CL05B104KA5NNNC</field>
+        <f name="Digikey">1276-6720-1-ND</f>
+        <f name="JLC Part">C1525</f>
+        <f name="LCSC Part">C1525</f>
+        <f name="Manufacturer Part">CL05B104KA5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C1525"/>
       <property name="Digikey" value="1276-6720-1-ND"/>
       <property name="Manufacturer Part" value="CL05B104KA5NNNC"/>
+      <property name="JLC Part" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -94,16 +102,18 @@
     </comp>
     <comp ref="C5">
       <value>1pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1595-1-ND</field>
-        <field name="LCSC Part">C371977</field>
-        <field name="Manufacturer Part">CL05C010CB5NNNC</field>
+        <f name="Digikey">1276-1595-1-ND</f>
+        <f name="JLC Part">C1550</f>
+        <f name="LCSC Part">C371977</f>
+        <f name="Manufacturer Part">CL05C010CB5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C371977"/>
       <property name="Digikey" value="1276-1595-1-ND"/>
       <property name="Manufacturer Part" value="CL05C010CB5NNNC"/>
+      <property name="JLC Part" value="C1550"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -111,14 +121,16 @@
     </comp>
     <comp ref="C6">
       <value>15pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C307341</field>
-        <field name="Manufacturer Part">CL05C150JB51PNC</field>
+        <f name="JLC Part">C1548</f>
+        <f name="LCSC Part">C307341</f>
+        <f name="Manufacturer Part">CL05C150JB51PNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C307341"/>
       <property name="Manufacturer Part" value="CL05C150JB51PNC"/>
+      <property name="JLC Part" value="C1548"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -126,14 +138,16 @@
     </comp>
     <comp ref="C7">
       <value>15pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C307341</field>
-        <field name="Manufacturer Part">CL05C150JB51PNC</field>
+        <f name="JLC Part">C1548</f>
+        <f name="LCSC Part">C307341</f>
+        <f name="Manufacturer Part">CL05C150JB51PNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C307341"/>
       <property name="Manufacturer Part" value="CL05C150JB51PNC"/>
+      <property name="JLC Part" value="C1548"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -141,16 +155,18 @@
     </comp>
     <comp ref="C8">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1067-1-ND</field>
-        <field name="LCSC Part">C52923</field>
-        <field name="Manufacturer Part">CL05A105KO5NNNC</field>
+        <f name="Digikey">1276-1067-1-ND</f>
+        <f name="JLC Part">C52923</f>
+        <f name="LCSC Part">C52923</f>
+        <f name="Manufacturer Part">CL05A105KO5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C52923"/>
       <property name="Digikey" value="1276-1067-1-ND"/>
       <property name="Manufacturer Part" value="CL05A105KO5NNNC"/>
+      <property name="JLC Part" value="C52923"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -158,16 +174,18 @@
     </comp>
     <comp ref="C9">
       <value>1pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1595-1-ND</field>
-        <field name="LCSC Part">C371977</field>
-        <field name="Manufacturer Part">CL05C010CB5NNNC</field>
+        <f name="Digikey">1276-1595-1-ND</f>
+        <f name="JLC Part">C1550</f>
+        <f name="LCSC Part">C371977</f>
+        <f name="Manufacturer Part">CL05C010CB5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C371977"/>
       <property name="Digikey" value="1276-1595-1-ND"/>
       <property name="Manufacturer Part" value="CL05C010CB5NNNC"/>
+      <property name="JLC Part" value="C1550"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -175,16 +193,18 @@
     </comp>
     <comp ref="C10">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-6720-1-ND</field>
-        <field name="LCSC Part">C1525</field>
-        <field name="Manufacturer Part">CL05B104KA5NNNC</field>
+        <f name="Digikey">1276-6720-1-ND</f>
+        <f name="JLC Part">C1525</f>
+        <f name="LCSC Part">C1525</f>
+        <f name="Manufacturer Part">CL05B104KA5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C1525"/>
       <property name="Digikey" value="1276-6720-1-ND"/>
       <property name="Manufacturer Part" value="CL05B104KA5NNNC"/>
+      <property name="JLC Part" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -192,16 +212,18 @@
     </comp>
     <comp ref="C11">
       <value>100pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">478-1082-1-ND</field>
-        <field name="LCSC Part">C26409</field>
-        <field name="Manufacturer Part">CL05C101JB5NNNC</field>
+        <f name="Digikey">478-1082-1-ND</f>
+        <f name="JLC Part">C1546</f>
+        <f name="LCSC Part">C26409</f>
+        <f name="Manufacturer Part">CL05C101JB5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C26409"/>
       <property name="Digikey" value="478-1082-1-ND"/>
       <property name="Manufacturer Part" value="CL05C101JB5NNNC"/>
+      <property name="JLC Part" value="C1546"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -209,16 +231,18 @@
     </comp>
     <comp ref="C12">
       <value>1nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1032-1-ND</field>
-        <field name="LCSC Part">C14442</field>
-        <field name="Manufacturer Part">CL05B102KB5NNNC</field>
+        <f name="Digikey">1276-1032-1-ND</f>
+        <f name="JLC Part">C1523</f>
+        <f name="LCSC Part">C14442</f>
+        <f name="Manufacturer Part">CL05B102KB5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C14442"/>
       <property name="Digikey" value="1276-1032-1-ND"/>
       <property name="Manufacturer Part" value="CL05B102KB5NNNC"/>
+      <property name="JLC Part" value="C1523"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -226,16 +250,18 @@
     </comp>
     <comp ref="C13">
       <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1784-1-ND</field>
-        <field name="LCSC Part">C368809</field>
-        <field name="Manufacturer Part">CL05A475KP5NRNC</field>
+        <f name="Digikey">1276-1784-1-ND</f>
+        <f name="JLC Part">C23733</f>
+        <f name="LCSC Part">C368809</f>
+        <f name="Manufacturer Part">CL05A475KP5NRNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C368809"/>
       <property name="Digikey" value="1276-1784-1-ND"/>
       <property name="Manufacturer Part" value="CL05A475KP5NRNC"/>
+      <property name="JLC Part" value="C23733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -243,16 +269,18 @@
     </comp>
     <comp ref="C14">
       <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1784-1-ND</field>
-        <field name="LCSC Part">C368809</field>
-        <field name="Manufacturer Part">CL05A475KP5NRNC</field>
+        <f name="Digikey">1276-1784-1-ND</f>
+        <f name="JLC Part">C23733</f>
+        <f name="LCSC Part">C368809</f>
+        <f name="Manufacturer Part">CL05A475KP5NRNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C368809"/>
       <property name="Digikey" value="1276-1784-1-ND"/>
       <property name="Manufacturer Part" value="CL05A475KP5NRNC"/>
+      <property name="JLC Part" value="C23733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -260,16 +288,18 @@
     </comp>
     <comp ref="C15">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1067-1-ND</field>
-        <field name="LCSC Part">C52923</field>
-        <field name="Manufacturer Part">CL05A105KO5NNNC</field>
+        <f name="Digikey">1276-1067-1-ND</f>
+        <f name="JLC Part">C52923</f>
+        <f name="LCSC Part">C52923</f>
+        <f name="Manufacturer Part">CL05A105KO5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C52923"/>
       <property name="Digikey" value="1276-1067-1-ND"/>
       <property name="Manufacturer Part" value="CL05A105KO5NNNC"/>
+      <property name="JLC Part" value="C52923"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -277,16 +307,18 @@
     </comp>
     <comp ref="C16">
       <value>47nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1077-1-ND</field>
-        <field name="LCSC Part">C307434</field>
-        <field name="Manufacturer Part">CL05B473KO5NNNC</field>
+        <f name="Digikey">1276-1077-1-ND</f>
+        <f name="JLC Part">C26403</f>
+        <f name="LCSC Part">C307434</f>
+        <f name="Manufacturer Part">CL05B473KO5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C307434"/>
       <property name="Digikey" value="1276-1077-1-ND"/>
       <property name="Manufacturer Part" value="CL05B473KO5NNNC"/>
+      <property name="JLC Part" value="C26403"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -294,14 +326,16 @@
     </comp>
     <comp ref="C17">
       <value>15pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C307341</field>
-        <field name="Manufacturer Part">CL05C150JB51PNC</field>
+        <f name="JLC Part">C1548</f>
+        <f name="LCSC Part">C307341</f>
+        <f name="Manufacturer Part">CL05C150JB51PNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C307341"/>
       <property name="Manufacturer Part" value="CL05C150JB51PNC"/>
+      <property name="JLC Part" value="C1548"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -309,14 +343,16 @@
     </comp>
     <comp ref="C18">
       <value>15pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C307341</field>
-        <field name="Manufacturer Part">CL05C150JB51PNC</field>
+        <f name="JLC Part">C1548</f>
+        <f name="LCSC Part">C307341</f>
+        <f name="Manufacturer Part">CL05C150JB51PNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C307341"/>
       <property name="Manufacturer Part" value="CL05C150JB51PNC"/>
+      <property name="JLC Part" value="C1548"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -324,16 +360,18 @@
     </comp>
     <comp ref="C19">
       <value>10nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1499-1-ND</field>
-        <field name="LCSC Part">C15195</field>
-        <field name="Manufacturer Part">CL05B103KB5NNNC</field>
+        <f name="Digikey">1276-1499-1-ND</f>
+        <f name="JLC Part">C15195</f>
+        <f name="LCSC Part">C15195</f>
+        <f name="Manufacturer Part">CL05B103KB5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C15195"/>
       <property name="Digikey" value="1276-1499-1-ND"/>
       <property name="Manufacturer Part" value="CL05B103KB5NNNC"/>
+      <property name="JLC Part" value="C15195"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -341,16 +379,18 @@
     </comp>
     <comp ref="C20">
       <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1784-1-ND</field>
-        <field name="LCSC Part">C368809</field>
-        <field name="Manufacturer Part">CL05A475KP5NRNC</field>
+        <f name="Digikey">1276-1784-1-ND</f>
+        <f name="JLC Part">C23733</f>
+        <f name="LCSC Part">C368809</f>
+        <f name="Manufacturer Part">CL05A475KP5NRNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C368809"/>
       <property name="Digikey" value="1276-1784-1-ND"/>
       <property name="Manufacturer Part" value="CL05A475KP5NRNC"/>
+      <property name="JLC Part" value="C23733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -358,14 +398,16 @@
     </comp>
     <comp ref="C21">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>footprints:Capacitor_0603_1608M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C19702</field>
-        <field name="Manufacturer Part">CL10A106KP8NNNC</field>
+        <f name="JLC Part">C19702</f>
+        <f name="LCSC Part">C19702</f>
+        <f name="Manufacturer Part">CL10A106KP8NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C19702"/>
       <property name="Manufacturer Part" value="CL10A106KP8NNNC"/>
+      <property name="JLC Part" value="C19702"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -373,16 +415,18 @@
     </comp>
     <comp ref="C22">
       <value>1.5pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1658-1-ND</field>
-        <field name="LCSC Part">C170150</field>
-        <field name="Manufacturer Part">CL05C1R5CB5NNNC</field>
+        <f name="Digikey">1276-1658-1-ND</f>
+        <f name="JLC Part">C1552</f>
+        <f name="LCSC Part">C170150</f>
+        <f name="Manufacturer Part">CL05C1R5CB5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C170150"/>
       <property name="Digikey" value="1276-1658-1-ND"/>
       <property name="Manufacturer Part" value="CL05C1R5CB5NNNC"/>
+      <property name="JLC Part" value="C1552"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -390,16 +434,18 @@
     </comp>
     <comp ref="C23">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1067-1-ND</field>
-        <field name="LCSC Part">C52923</field>
-        <field name="Manufacturer Part">CL05A105KO5NNNC</field>
+        <f name="Digikey">1276-1067-1-ND</f>
+        <f name="JLC Part">C52923</f>
+        <f name="LCSC Part">C52923</f>
+        <f name="Manufacturer Part">CL05A105KO5NNNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C52923"/>
       <property name="Digikey" value="1276-1067-1-ND"/>
       <property name="Manufacturer Part" value="CL05A105KO5NNNC"/>
+      <property name="JLC Part" value="C52923"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -407,16 +453,18 @@
     </comp>
     <comp ref="C24">
       <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1784-1-ND</field>
-        <field name="LCSC Part">C368809</field>
-        <field name="Manufacturer Part">CL05A475KP5NRNC</field>
+        <f name="Digikey">1276-1784-1-ND</f>
+        <f name="JLC Part">C23733</f>
+        <f name="LCSC Part">C368809</f>
+        <f name="Manufacturer Part">CL05A475KP5NRNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C368809"/>
       <property name="Digikey" value="1276-1784-1-ND"/>
       <property name="Manufacturer Part" value="CL05A475KP5NRNC"/>
+      <property name="JLC Part" value="C23733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -424,16 +472,18 @@
     </comp>
     <comp ref="C25">
       <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1784-1-ND</field>
-        <field name="LCSC Part">C368809</field>
-        <field name="Manufacturer Part">CL05A475KP5NRNC</field>
+        <f name="Digikey">1276-1784-1-ND</f>
+        <f name="JLC Part">C23733</f>
+        <f name="LCSC Part">C368809</f>
+        <f name="Manufacturer Part">CL05A475KP5NRNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C368809"/>
       <property name="Digikey" value="1276-1784-1-ND"/>
       <property name="Manufacturer Part" value="CL05A475KP5NRNC"/>
+      <property name="JLC Part" value="C23733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -441,16 +491,18 @@
     </comp>
     <comp ref="C26">
       <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>footprints:Capacitor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="Digikey">1276-1784-1-ND</field>
-        <field name="LCSC Part">C368809</field>
-        <field name="Manufacturer Part">CL05A475KP5NRNC</field>
+        <f name="Digikey">1276-1784-1-ND</f>
+        <f name="JLC Part">C23733</f>
+        <f name="LCSC Part">C368809</f>
+        <f name="Manufacturer Part">CL05A475KP5NRNC</f>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC Part" value="C368809"/>
       <property name="Digikey" value="1276-1784-1-ND"/>
       <property name="Manufacturer Part" value="CL05A475KP5NRNC"/>
+      <property name="JLC Part" value="C23733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -460,10 +512,14 @@
       <value>BLUE</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC Part">C72041</field>
+        <f name="JLC Part">C72041</f>
+        <f name="LCSC Part">C146215</f>
+        <f name="Manufacturer Part">19-217/BHC-ZL1M2RY/3T</f>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="LCSC Part" value="C72041"/>
+      <property name="LCSC Part" value="C146215"/>
+      <property name="Manufacturer Part" value="19-217/BHC-ZL1M2RY/3T"/>
+      <property name="JLC Part" value="C72041"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -473,39 +529,64 @@
       <value>ORANGE</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC Part">C72038</field>
+        <f name="JLC Part">C72038</f>
+        <f name="LCSC Part">C160478</f>
+        <f name="Manufacturer Part">19-217/S2C-AQ1R1B/3T</f>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="LCSC Part" value="C72038"/>
+      <property name="LCSC Part" value="C160478"/>
+      <property name="Manufacturer Part" value="19-217/S2C-AQ1R1B/3T"/>
+      <property name="JLC Part" value="C72038"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ffad26f</tstamps>
     </comp>
     <comp ref="D5">
-      <value>SBR130S3</value>
-      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <value>PMEG4010CEJ</value>
+      <footprint>footprints:D_SOD-323F-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C117949</field>
-        <field name="Manufacturer Part">SBR130S3</field>
+        <f name="JLC Part">C50704</f>
+        <f name="LCSC Part">C50704</f>
+        <f name="Manufacturer Part">PMEG4010CEJ</f>
       </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
-      <property name="LCSC Part" value="C117949"/>
-      <property name="Manufacturer Part" value="SBR130S3"/>
+      <property name="LCSC Part" value="C50704"/>
+      <property name="Manufacturer Part" value="PMEG4010CEJ"/>
+      <property name="JLC Part" value="C50704"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>01cbcbfd-4f3a-4889-81e1-825fc2cd4f40</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA hold</value>
+      <footprint>Fuse:Fuse_0402_1005Metric</footprint>
+      <fields>
+        <f name="JLC Part">C206938</f>
+        <f name="LCSC Part">C206938</f>
+        <f name="Manufacturer Part">0402L050SLKR</f>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="LCSC Part" value="C206938"/>
+      <property name="Manufacturer Part" value="0402L050SLKR"/>
+      <property name="JLC Part" value="C206938"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mikoto.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a158f8ca-4844-4fb9-b563-297e5f9223b7</tstamps>
     </comp>
     <comp ref="J1">
       <value>USB_C_Receptacle_USB2.0</value>
       <footprint>footprints:USB-C_C168688</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
       <fields>
-        <field name="LCSC Part">C168688</field>
+        <f name="JLC Part">C168688</f>
+        <f name="LCSC Part">C168688</f>
       </fields>
       <libsource lib="mikoto" part="USB_C_Receptacle_USB2.0" description=""/>
       <property name="LCSC Part" value="C168688"/>
+      <property name="JLC Part" value="C168688"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -513,14 +594,16 @@
     </comp>
     <comp ref="L1">
       <value>3.9nH</value>
-      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <footprint>footprints:Inductor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C14033</field>
-        <field name="Manufacturer Part">SDCL1005C3N9STDF</field>
+        <f name="JLC Part">C14033</f>
+        <f name="LCSC Part">C76775</f>
+        <f name="Manufacturer Part">MLG1005S3N9BT000</f>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="LCSC Part" value="C14033"/>
-      <property name="Manufacturer Part" value="SDCL1005C3N9STDF"/>
+      <property name="LCSC Part" value="C76775"/>
+      <property name="Manufacturer Part" value="MLG1005S3N9BT000"/>
+      <property name="JLC Part" value="C14033"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -528,14 +611,16 @@
     </comp>
     <comp ref="L2">
       <value>15nH</value>
-      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <footprint>footprints:Inductor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C27143</field>
-        <field name="Manufacturer Part">SDCL1005C15NJTDF</field>
+        <f name="JLC Part">C27143</f>
+        <f name="LCSC Part">C76763</f>
+        <f name="Manufacturer Part">MLG1005S15NJT000</f>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="LCSC Part" value="C27143"/>
-      <property name="Manufacturer Part" value="SDCL1005C15NJTDF"/>
+      <property name="LCSC Part" value="C76763"/>
+      <property name="Manufacturer Part" value="MLG1005S15NJT000"/>
+      <property name="JLC Part" value="C27143"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -543,14 +628,16 @@
     </comp>
     <comp ref="L3">
       <value>10uH</value>
-      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <footprint>footprints:Inductor_0603_1608M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C1035</field>
-        <field name="Manufacturer Part">SDFL1608S100KTF</field>
+        <f name="JLC Part">C1035</f>
+        <f name="LCSC Part">C76732</f>
+        <f name="Manufacturer Part">MLF1608E100KTD00</f>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="LCSC Part" value="C1035"/>
-      <property name="Manufacturer Part" value="SDFL1608S100KTF"/>
+      <property name="LCSC Part" value="C76732"/>
+      <property name="Manufacturer Part" value="MLF1608E100KTD00"/>
+      <property name="JLC Part" value="C1035"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -558,14 +645,16 @@
     </comp>
     <comp ref="L4">
       <value>10uH</value>
-      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <footprint>footprints:Inductor_0603_1608M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C1035</field>
-        <field name="Manufacturer Part">SDFL1608S100KTF</field>
+        <f name="JLC Part">C1035</f>
+        <f name="LCSC Part">C76732</f>
+        <f name="Manufacturer Part">MLF1608E100KTD00</f>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="LCSC Part" value="C1035"/>
-      <property name="Manufacturer Part" value="SDFL1608S100KTF"/>
+      <property name="LCSC Part" value="C76732"/>
+      <property name="Manufacturer Part" value="MLF1608E100KTD00"/>
+      <property name="JLC Part" value="C1035"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -582,29 +671,33 @@
     </comp>
     <comp ref="R1">
       <value>3.9k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C131467</field>
-        <field name="Manufacturer Part">RC0402FR-073K9L</field>
+        <f name="JLC Part">C51721</f>
+        <f name="LCSC Part">C131467</f>
+        <f name="Manufacturer Part">RC0402FR-073K9L</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C131467"/>
       <property name="Manufacturer Part" value="RC0402FR-073K9L"/>
+      <property name="JLC Part" value="C51721"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c5f65bb9-c8e5-4da1-a16c-0e1eb0bcb56c</tstamps>
     </comp>
     <comp ref="R2">
-      <value>10M</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <value>2M</value>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C138067</field>
-        <field name="Manufacturer Part">RC0402FR-0710ML</field>
+        <f name="JLC Part">C138014</f>
+        <f name="LCSC Part">C138014</f>
+        <f name="Manufacturer Part">RC0402FR-072ML</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC Part" value="C138067"/>
-      <property name="Manufacturer Part" value="RC0402FR-0710ML"/>
+      <property name="LCSC Part" value="C138014"/>
+      <property name="Manufacturer Part" value="RC0402FR-072ML"/>
+      <property name="JLC Part" value="C138014"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -612,14 +705,16 @@
     </comp>
     <comp ref="R3">
       <value>2M</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C138014</field>
-        <field name="Manufacturer Part">RC0402FR-072ML</field>
+        <f name="JLC Part">C138014</f>
+        <f name="LCSC Part">C138014</f>
+        <f name="Manufacturer Part">RC0402FR-072ML</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C138014"/>
       <property name="Manufacturer Part" value="RC0402FR-072ML"/>
+      <property name="JLC Part" value="C138014"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -627,14 +722,16 @@
     </comp>
     <comp ref="R4">
       <value>10M</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C138067</field>
-        <field name="Manufacturer Part">RC0402FR-0710ML</field>
+        <f name="JLC Part">C26082</f>
+        <f name="LCSC Part">C138067</f>
+        <f name="Manufacturer Part">RC0402FR-0710ML</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C138067"/>
       <property name="Manufacturer Part" value="RC0402FR-0710ML"/>
+      <property name="JLC Part" value="C26082"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -642,14 +739,16 @@
     </comp>
     <comp ref="R5">
       <value>1.5k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C114759</field>
-        <field name="Manufacturer Part">RC0402FR-071K5L</field>
+        <f name="JLC Part">C25867</f>
+        <f name="LCSC Part">C114759</f>
+        <f name="Manufacturer Part">RC0402FR-071K5L</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C114759"/>
       <property name="Manufacturer Part" value="RC0402FR-071K5L"/>
+      <property name="JLC Part" value="C25867"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -657,14 +756,16 @@
     </comp>
     <comp ref="R6">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C60490</field>
-        <field name="Manufacturer Part">RC0402FR-0710KL</field>
+        <f name="JLC Part">C25744</f>
+        <f name="LCSC Part">C60490</f>
+        <f name="Manufacturer Part">RC0402FR-0710KL</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C60490"/>
       <property name="Manufacturer Part" value="RC0402FR-0710KL"/>
+      <property name="JLC Part" value="C25744"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -672,14 +773,16 @@
     </comp>
     <comp ref="R7">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C60490</field>
-        <field name="Manufacturer Part">RC0402FR-0710KL</field>
+        <f name="JLC Part">C25744</f>
+        <f name="LCSC Part">C60490</f>
+        <f name="Manufacturer Part">RC0402FR-0710KL</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C60490"/>
       <property name="Manufacturer Part" value="RC0402FR-0710KL"/>
+      <property name="JLC Part" value="C25744"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -687,14 +790,16 @@
     </comp>
     <comp ref="R8">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C60490</field>
-        <field name="Manufacturer Part">RC0402FR-0710KL</field>
+        <f name="JLC Part">C25744</f>
+        <f name="LCSC Part">C60490</f>
+        <f name="Manufacturer Part">RC0402FR-0710KL</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C60490"/>
       <property name="Manufacturer Part" value="RC0402FR-0710KL"/>
+      <property name="JLC Part" value="C25744"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -702,14 +807,16 @@
     </comp>
     <comp ref="R9">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C105872</field>
-        <field name="Manufacturer Part">RC0402FR-075K1L</field>
+        <f name="JLC Part">C25905</f>
+        <f name="LCSC Part">C105872</f>
+        <f name="Manufacturer Part">RC0402FR-075K1L</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C105872"/>
       <property name="Manufacturer Part" value="RC0402FR-075K1L"/>
+      <property name="JLC Part" value="C25905"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -717,14 +824,16 @@
     </comp>
     <comp ref="R10">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C105872</field>
-        <field name="Manufacturer Part">RC0402FR-075K1L</field>
+        <f name="JLC Part">C25905</f>
+        <f name="LCSC Part">C105872</f>
+        <f name="Manufacturer Part">RC0402FR-075K1L</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C105872"/>
       <property name="Manufacturer Part" value="RC0402FR-075K1L"/>
+      <property name="JLC Part" value="C25905"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -732,14 +841,16 @@
     </comp>
     <comp ref="R11">
       <value>0R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C106231</field>
-        <field name="Manufacturer Part">RC0402FR-070RL</field>
+        <f name="JLC Part">C17168</f>
+        <f name="LCSC Part">C106231</f>
+        <f name="Manufacturer Part">RC0402FR-070RL</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C106231"/>
       <property name="Manufacturer Part" value="RC0402FR-070RL"/>
+      <property name="JLC Part" value="C17168"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -747,14 +858,16 @@
     </comp>
     <comp ref="R12">
       <value>2M</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>footprints:Resistor_0402_1005M-nosilk</footprint>
       <fields>
-        <field name="LCSC Part">C138014</field>
-        <field name="Manufacturer Part">RC0402FR-072ML</field>
+        <f name="JLC Part">C138014</f>
+        <f name="LCSC Part">C138014</f>
+        <f name="Manufacturer Part">RC0402FR-072ML</f>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC Part" value="C138014"/>
       <property name="Manufacturer Part" value="RC0402FR-072ML"/>
+      <property name="JLC Part" value="C138014"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -762,17 +875,19 @@
     </comp>
     <comp ref="U1">
       <value>nRF52840</value>
-      <footprint>Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm</footprint>
+      <footprint>footprints:AQFN-73-1EP_7x7mm_P0.5mm_NRF52840-custom</footprint>
       <datasheet>http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html</datasheet>
       <fields>
-        <field name="Digikey">1490-1071-1-ND</field>
-        <field name="LCSC Part">C190794</field>
-        <field name="Manufacturer Part">NRF52840-QIAA-R</field>
+        <f name="Digikey">1490-1071-1-ND</f>
+        <f name="JLC Part">C1851953</f>
+        <f name="LCSC Part">C1851953</f>
+        <f name="Manufacturer Part">NRF52840-QIAA-R</f>
       </fields>
       <libsource lib="MCU_Nordic" part="nRF52840" description="Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73"/>
-      <property name="LCSC Part" value="C190794"/>
+      <property name="LCSC Part" value="C1851953"/>
       <property name="Digikey" value="1490-1071-1-ND"/>
       <property name="Manufacturer Part" value="NRF52840-QIAA-R"/>
+      <property name="JLC Part" value="C1851953"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -783,14 +898,16 @@
       <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/bq24075.pdf</datasheet>
       <fields>
-        <field name="Digikey">296-24815-1-ND</field>
-        <field name="LCSC Part">C140287</field>
-        <field name="Manufacturer Part">BQ24079RGTR</field>
+        <f name="Digikey">296-24815-1-ND</f>
+        <f name="JLC Part">C15464</f>
+        <f name="LCSC Part">C15464</f>
+        <f name="Manufacturer Part">BQ24075RGTR</f>
       </fields>
       <libsource lib="Battery_Management" part="BQ24075" description="USB-Friendly Li-Ion Battery Charger and Power-Path Management"/>
-      <property name="LCSC Part" value="C140287"/>
+      <property name="LCSC Part" value="C15464"/>
       <property name="Digikey" value="296-24815-1-ND"/>
-      <property name="Manufacturer Part" value="BQ24079RGTR"/>
+      <property name="Manufacturer Part" value="BQ24075RGTR"/>
+      <property name="JLC Part" value="C15464"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -801,14 +918,16 @@
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>https://www.torexsemi.com/file/xc6220/XC6220.pdf</datasheet>
       <fields>
-        <field name="Digikey">893-1133-1-ND‎</field>
-        <field name="LCSC Part">C86534</field>
-        <field name="Manufacturer Part">XC6220B331MR-G‎</field>
+        <f name="Digikey">893-1133-1-ND‎</f>
+        <f name="JLC Part">C86534</f>
+        <f name="LCSC Part">C86534</f>
+        <f name="Manufacturer Part">XC6220B331MR-G‎</f>
       </fields>
       <libsource lib="Regulator_Linear" part="XC6220B331MR" description="1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
       <property name="Digikey" value="893-1133-1-ND‎"/>
       <property name="Manufacturer Part" value="XC6220B331MR-G‎"/>
       <property name="LCSC Part" value="C86534"/>
+      <property name="JLC Part" value="C86534"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -823,18 +942,38 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>70e82a80-1fab-440a-89bb-7533d75dbb36</tstamps>
     </comp>
+    <comp ref="U5">
+      <value>ESDR0502NMUTAG</value>
+      <footprint>footprints:UDFN-6_1.2x1.0mm_P0.4mm</footprint>
+      <datasheet>http://www.onsemi.cn/pub_link/Collateral/ESDR0502N-D.PDF</datasheet>
+      <fields>
+        <f name="JLC Part">C327480</f>
+        <f name="LCSC Part">C327480</f>
+        <f name="Manufacturer Part">ESDR0502NMUTBG</f>
+      </fields>
+      <libsource lib="mikoto" part="ESDR0502NMUTAG" description=""/>
+      <property name="LCSC Part" value="C327480"/>
+      <property name="Manufacturer Part" value="ESDR0502NMUTBG"/>
+      <property name="JLC Part" value="C327480"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mikoto.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce939e88-1c3a-42c2-8bde-aebaf96098b4</tstamps>
+    </comp>
     <comp ref="Y1">
       <value>32MHz</value>
       <footprint>Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
       <fields>
-        <field name="Digikey">490-XRCGB32M000F1S1DR0CT-ND‎</field>
-        <field name="LCSC Part">C255896</field>
-        <field name="Manufacturer Part">‎XRCGB32M000F1S1DR0‎</field>
+        <f name="Digikey">490-XRCGB32M000F1S1DR0CT-ND‎</f>
+        <f name="JLC Part">C255896</f>
+        <f name="LCSC Part">C255896</f>
+        <f name="Manufacturer Part">Q22FA1280001800</f>
       </fields>
       <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
       <property name="LCSC Part" value="C255896"/>
       <property name="Digikey" value="490-XRCGB32M000F1S1DR0CT-ND‎"/>
-      <property name="Manufacturer Part" value="‎XRCGB32M000F1S1DR0‎"/>
+      <property name="Manufacturer Part" value="Q22FA1280001800"/>
+      <property name="JLC Part" value="C255896"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -844,14 +983,16 @@
       <value>32.768 kHz</value>
       <footprint>Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm</footprint>
       <fields>
-        <field name="Digikey">728-1130-1-ND‎</field>
-        <field name="LCSC Part">C165064</field>
-        <field name="Manufacturer Part">SC16S-12.5PF20PPM</field>
+        <f name="Digikey">728-1075-1-ND</f>
+        <f name="JLC Part">C93231</f>
+        <f name="LCSC Part">C97607</f>
+        <f name="Manufacturer Part">SC20S-12.5PF20PPM</f>
       </fields>
       <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
-      <property name="LCSC Part" value="C165064"/>
-      <property name="Digikey" value="728-1130-1-ND‎"/>
-      <property name="Manufacturer Part" value="SC16S-12.5PF20PPM"/>
+      <property name="LCSC Part" value="C97607"/>
+      <property name="Digikey" value="728-1075-1-ND"/>
+      <property name="Manufacturer Part" value="SC20S-12.5PF20PPM"/>
+      <property name="JLC Part" value="C93231"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mikoto.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1056,6 +1197,23 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R_Small">
       <description>Resistor, small symbol</description>
       <docs>~</docs>
@@ -1099,7 +1257,7 @@
         <pin num="AC5" name="DECUSB" type="passive"/>
         <pin num="AC9" name="P0.14" type="bidirectional"/>
         <pin num="AC11" name="P0.16" type="bidirectional"/>
-        <pin num="AC13" name="P0.18/~{RESET}" type="bidirectional"/>
+        <pin num="AC13" name="P0.18/~RESET" type="bidirectional"/>
         <pin num="AC15" name="P0.19" type="bidirectional"/>
         <pin num="AC17" name="P0.21" type="bidirectional"/>
         <pin num="AC19" name="P0.23" type="bidirectional"/>
@@ -1193,6 +1351,23 @@
         <pin num="5" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="mikoto" part="ESDR0502NMUTAG">
+      <docs>http://www.onsemi.cn/pub_link/Collateral/ESDR0502N-D.PDF</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESDR0502NMUTAG</field>
+        <field name="Footprint">footprints:UDFN-6_1.2x1.0mm_P0.4mm</field>
+        <field name="Datasheet">http://www.onsemi.cn/pub_link/Collateral/ESDR0502N-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+        <pin num="4" name="D-" type="passive"/>
+        <pin num="5" name="D+" type="passive"/>
+        <pin num="6" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="mikoto" part="USB_C_Receptacle_USB2.0">
       <footprints>
         <fp>USB*C*Receptacle*</fp>
@@ -1254,64 +1429,67 @@
   </libparts>
   <libraries>
     <library logical="Battery_Management">
-      <uri>D:\Programs\KiCad\share\kicad\library/Battery_Management.lib</uri>
+      <uri>D:\Programs\KiCad\5.99\share\kicad\library/Battery_Management.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>D:\Programs\KiCad\share\kicad\library/Connector.lib</uri>
+      <uri>D:\Programs\KiCad\5.99\share\kicad\library/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>D:\Programs\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+      <uri>D:\Programs\KiCad\5.99\share\kicad\library/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>D:\Programs\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>D:\Programs\KiCad\5.99\share\kicad\library/Device.kicad_sym</uri>
     </library>
     <library logical="MCU_Nordic">
-      <uri>D:\Programs\KiCad\share\kicad\library/MCU_Nordic.lib</uri>
+      <uri>D:\Programs\KiCad\5.99\share\kicad\library/MCU_Nordic.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>D:\Programs\KiCad\share\kicad\library/Mechanical.lib</uri>
+      <uri>D:\Programs\KiCad\5.99\share\kicad\library/Mechanical.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>D:\Programs\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+      <uri>D:\Programs\KiCad\5.99\share\kicad\library/Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="mikoto">
       <uri>D:\Projects\mikoto/lib/mikoto.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/CC1">
+    <net code="1" name="/ANT">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/CC1">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="2" name="/CC2">
+    <net code="3" name="/CC2">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="3" name="BAT_VOLT">
+    <net code="4" name="BAT_VOLT">
       <node ref="C19" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U1" pin="B9" pinfunction="AIN6/P0.30" pintype="bidirectional"/>
+      <node ref="U1" pin="B13" pinfunction="AIN1/P0.03" pintype="bidirectional"/>
     </net>
-    <net code="4" name="BLUE_LED">
+    <net code="5" name="BLUE_LED">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="AD10" pinfunction="P0.15" pintype="bidirectional"/>
     </net>
-    <net code="5" name="CHARGE_CTRL_1">
+    <net code="6" name="CHARGE_CTRL_1">
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="G1" pinfunction="P0.26" pintype="bidirectional"/>
     </net>
-    <net code="6" name="CHARGE_CTRL_2">
+    <net code="7" name="CHARGE_CTRL_2">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="A14" pinfunction="P1.15" pintype="bidirectional"/>
     </net>
-    <net code="7" name="EXT_5V">
-      <node ref="C23" pin="1" pintype="passive"/>
+    <net code="8" name="EXT_5V">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U2" pin="13" pinfunction="IN" pintype="power_in"/>
+      <node ref="F1" pin="2" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="EXT_5V" pintype="input"/>
     </net>
-    <net code="8" name="GND">
+    <net code="9" name="GND">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -1356,12 +1534,9 @@
       <node ref="U4" pin="24" pinfunction="GND" pintype="input"/>
       <node ref="U4" pin="4" pinfunction="GND" pintype="input"/>
       <node ref="U4" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
-    </net>
-    <net code="9" name="Net-(AE1-Pad1)">
-      <node ref="C22" pin="2" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
     </net>
     <net code="10" name="Net-(C5-Pad2)">
       <node ref="C5" pin="2" pintype="passive"/>
@@ -1416,162 +1591,170 @@
       <node ref="U1" pin="F2" pinfunction="XL2/P0.01" pintype="bidirectional"/>
       <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(D1-Pad1)">
+    <net code="21" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="22" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D3-Pad1)">
+    <net code="23" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="~CHG" pintype="open_collector"/>
     </net>
-    <net code="23" name="Net-(D3-Pad2)">
+    <net code="24" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(L2-Pad2)">
+    <net code="25" name="Net-(L2-Pad2)">
       <node ref="L2" pin="2" pintype="passive"/>
       <node ref="L3" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(L3-Pad2)">
+    <net code="26" name="Net-(L3-Pad2)">
       <node ref="L3" pin="2" pintype="passive"/>
       <node ref="U1" pin="B3" pinfunction="DCC" pintype="power_out"/>
     </net>
-    <net code="26" name="Net-(L4-Pad2)">
+    <net code="27" name="Net-(L4-Pad2)">
       <node ref="L4" pin="2" pintype="passive"/>
       <node ref="U1" pin="AB2" pinfunction="DCCH" pintype="power_out"/>
     </net>
-    <net code="27" name="Net-(R1-Pad1)">
+    <net code="28" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="ISET" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(R8-Pad1)">
+    <net code="29" name="Net-(R8-Pad1)">
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="TS" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(R12-Pad2)">
+    <net code="30" name="Net-(R12-Pad2)">
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="30" name="P0.02">
+    <net code="31" name="P0.02">
       <node ref="U1" pin="A12" pinfunction="AIN0/P0.02" pintype="bidirectional"/>
       <node ref="U4" pin="17" pintype="input"/>
     </net>
-    <net code="31" name="P0.06">
-      <node ref="U1" pin="L1" pinfunction="P0.06" pintype="bidirectional"/>
+    <net code="32" name="P0.04">
+      <node ref="U1" pin="J1" pinfunction="AIN2/P0.04" pintype="bidirectional"/>
       <node ref="U4" pin="3" pintype="input"/>
     </net>
-    <net code="32" name="P0.08">
+    <net code="33" name="P0.08">
       <node ref="U1" pin="N1" pinfunction="P0.08" pintype="bidirectional"/>
       <node ref="U4" pin="2" pintype="input"/>
     </net>
-    <net code="33" name="P0.09">
+    <net code="34" name="P0.09">
       <node ref="U1" pin="L24" pinfunction="NFC1/P0.09" pintype="bidirectional"/>
       <node ref="U4" pin="14" pintype="input"/>
     </net>
-    <net code="34" name="P0.10">
+    <net code="35" name="P0.10">
       <node ref="U1" pin="J24" pinfunction="NFC2/P0.10" pintype="bidirectional"/>
       <node ref="U4" pin="15" pintype="input"/>
     </net>
-    <net code="35" name="P0.11">
+    <net code="36" name="P0.11">
       <node ref="U1" pin="T2" pinfunction="TRACEDATA2/P0.11" pintype="bidirectional"/>
       <node ref="U4" pin="21" pintype="input"/>
     </net>
-    <net code="36" name="P0.17">
+    <net code="37" name="P0.17">
       <node ref="U1" pin="AD12" pinfunction="P0.17" pintype="bidirectional"/>
       <node ref="U4" pin="6" pintype="input"/>
     </net>
-    <net code="37" name="P0.20">
+    <net code="38" name="P0.20">
       <node ref="U1" pin="AD16" pinfunction="P0.20" pintype="bidirectional"/>
       <node ref="U4" pin="7" pintype="input"/>
     </net>
-    <net code="38" name="P0.22">
+    <net code="39" name="P0.22">
       <node ref="U1" pin="AD18" pinfunction="P0.22" pintype="bidirectional"/>
       <node ref="U4" pin="8" pintype="input"/>
     </net>
-    <net code="39" name="P0.24">
+    <net code="40" name="P0.24">
       <node ref="U1" pin="AD20" pinfunction="P0.24" pintype="bidirectional"/>
       <node ref="U4" pin="9" pintype="input"/>
     </net>
-    <net code="40" name="P0.25">
+    <net code="41" name="P0.25">
       <node ref="U1" pin="AC21" pinfunction="P0.25" pintype="bidirectional"/>
       <node ref="U4" pin="20" pintype="input"/>
     </net>
-    <net code="41" name="P0.29">
+    <net code="42" name="P0.29">
       <node ref="U1" pin="A10" pinfunction="AIN5/P0.29" pintype="bidirectional"/>
       <node ref="U4" pin="18" pintype="input"/>
     </net>
-    <net code="42" name="P0.31">
+    <net code="43" name="P0.31">
       <node ref="U1" pin="A8" pinfunction="AIN7/P0.31" pintype="bidirectional"/>
       <node ref="U4" pin="19" pintype="input"/>
     </net>
-    <net code="43" name="P1.00">
+    <net code="44" name="P1.00">
       <node ref="U1" pin="AD22" pinfunction="TRACEDATA0/P1.00" pintype="bidirectional"/>
       <node ref="U4" pin="10" pintype="input"/>
     </net>
-    <net code="44" name="P1.02">
+    <net code="45" name="P1.02">
       <node ref="U1" pin="W24" pinfunction="P1.02" pintype="bidirectional"/>
       <node ref="U4" pin="11" pintype="input"/>
     </net>
-    <net code="45" name="P1.04">
+    <net code="46" name="P1.04">
       <node ref="U1" pin="U24" pinfunction="P1.04" pintype="bidirectional"/>
       <node ref="U4" pin="12" pintype="input"/>
     </net>
-    <net code="46" name="P1.06">
+    <net code="47" name="P1.06">
       <node ref="U1" pin="R24" pinfunction="P1.06" pintype="bidirectional"/>
       <node ref="U4" pin="13" pintype="input"/>
     </net>
-    <net code="47" name="P1.11">
-      <node ref="U1" pin="A20" pinfunction="P1.10" pintype="bidirectional"/>
+    <net code="48" name="P1.13">
+      <node ref="U1" pin="A16" pinfunction="P1.13" pintype="bidirectional"/>
       <node ref="U4" pin="16" pintype="input"/>
     </net>
-    <net code="48" name="PPH_VCC">
+    <net code="49" name="PPH_VCC">
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="VOUT" pintype="power_out"/>
       <node ref="U4" pin="22" pinfunction="VCC" pintype="input"/>
     </net>
-    <net code="49" name="PPH_VCC_CTRL">
+    <net code="50" name="PPH_VCC_CTRL">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="AD8" pinfunction="P0.13" pintype="bidirectional"/>
       <node ref="U3" pin="3" pinfunction="CE" pintype="input"/>
     </net>
-    <net code="50" name="RESET">
+    <net code="51" name="RESET">
       <node ref="U1" pin="AC11" pinfunction="P0.16" pintype="bidirectional"/>
-      <node ref="U1" pin="AC13" pinfunction="P0.18/~{RESET}" pintype="bidirectional"/>
+      <node ref="U1" pin="AC13" pinfunction="P0.18/~RESET" pintype="bidirectional"/>
       <node ref="U1" pin="AC9" pinfunction="P0.14" pintype="bidirectional"/>
       <node ref="U4" pin="23" pinfunction="RST" pintype="input"/>
     </net>
-    <net code="51" name="SWC">
+    <net code="52" name="SWC">
       <node ref="U1" pin="AA24" pinfunction="SWDCLK" pintype="input"/>
     </net>
-    <net code="52" name="SWD">
+    <net code="53" name="SWD">
       <node ref="U1" pin="AC24" pinfunction="SWDIO" pintype="bidirectional"/>
     </net>
-    <net code="53" name="USB_D+">
+    <net code="54" name="USB_D+">
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U1" pin="AD6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="D+" pintype="passive"/>
     </net>
-    <net code="54" name="USB_D-">
+    <net code="55" name="USB_D-">
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U1" pin="AD4" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="D-" pintype="passive"/>
     </net>
-    <net code="55" name="VBAT">
+    <net code="56" name="VBAT">
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="BAT" pintype="power_out"/>
       <node ref="U2" pin="3" pinfunction="BAT" pintype="power_out"/>
       <node ref="U4" pin="25" pinfunction="RAW" pintype="input"/>
     </net>
-    <net code="56" name="VBUS">
+    <net code="57" name="VBUS">
       <node ref="C14" pin="2" pintype="passive"/>
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="A4" pinfunction="VBUS" pintype="power_in"/>
       <node ref="U1" pin="AD2" pinfunction="VBUS" pintype="power_in"/>
       <node ref="U4" pin="26" pinfunction="VBUS" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="VBUS" pintype="power_in"/>
     </net>
-    <net code="57" name="VDDH">
+    <net code="58" name="VDDH">
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
@@ -1582,7 +1765,7 @@
       <node ref="U2" pin="6" pinfunction="EN1" pintype="input"/>
       <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="58" name="VDD_NRF">
+    <net code="59" name="VDD_NRF">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -1595,97 +1778,103 @@
       <node ref="U1" pin="B1" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="W1" pinfunction="VDD" pintype="passive"/>
     </net>
-    <net code="59" name="VSS_PA">
+    <net code="60" name="VSS_PA">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="F23" pinfunction="VSS_PA" pintype="power_in"/>
     </net>
-    <net code="60" name="unconnected-(J1-PadS1)">
+    <net code="61" name="unconnected-(J1-PadS1)">
       <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(J1-PadS2)">
+    <net code="62" name="unconnected-(J1-PadS2)">
       <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(J1-PadS3)">
+    <net code="63" name="unconnected-(J1-PadS3)">
       <node ref="J1" pin="S3" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="63" name="unconnected-(J1-PadS4)">
+    <net code="64" name="unconnected-(J1-PadS4)">
       <node ref="J1" pin="S4" pinfunction="SHIELD" pintype="passive+no_connect"/>
-    </net>
-    <net code="64" name="unconnected-(U1-PadA16)">
-      <node ref="U1" pin="A16" pinfunction="P1.13" pintype="bidirectional+no_connect"/>
     </net>
     <net code="65" name="unconnected-(U1-PadA18)">
       <node ref="U1" pin="A18" pinfunction="DEC2" pintype="passive+no_connect"/>
     </net>
-    <net code="66" name="unconnected-(U1-PadAC15)">
+    <net code="66" name="unconnected-(U1-PadA20)">
+      <node ref="U1" pin="A20" pinfunction="P1.10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-PadAC15)">
       <node ref="U1" pin="AC15" pinfunction="P0.19" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U1-PadAC17)">
+    <net code="68" name="unconnected-(U1-PadAC17)">
       <node ref="U1" pin="AC17" pinfunction="P0.21" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U1-PadAC19)">
+    <net code="69" name="unconnected-(U1-PadAC19)">
       <node ref="U1" pin="AC19" pinfunction="P0.23" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U1-PadB11)">
+    <net code="70" name="unconnected-(U1-PadB9)">
+      <node ref="U1" pin="B9" pinfunction="AIN6/P0.30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-PadB11)">
       <node ref="U1" pin="B11" pinfunction="AIN4/P0.28" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U1-PadB13)">
-      <node ref="U1" pin="B13" pinfunction="AIN1/P0.03" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="71" name="unconnected-(U1-PadB15)">
+    <net code="72" name="unconnected-(U1-PadB15)">
       <node ref="U1" pin="B15" pinfunction="P1.14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U1-PadB17)">
+    <net code="73" name="unconnected-(U1-PadB17)">
       <node ref="U1" pin="B17" pinfunction="P1.12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U1-PadB19)">
+    <net code="74" name="unconnected-(U1-PadB19)">
       <node ref="U1" pin="B19" pinfunction="P1.11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U1-PadH2)">
+    <net code="75" name="unconnected-(U1-PadH2)">
       <node ref="U1" pin="H2" pinfunction="P0.27" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="75" name="unconnected-(U1-PadJ1)">
-      <node ref="U1" pin="J1" pinfunction="AIN2/P0.04" pintype="bidirectional+no_connect"/>
     </net>
     <net code="76" name="unconnected-(U1-PadK2)">
       <node ref="U1" pin="K2" pinfunction="AIN3/P0.05" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U1-PadM2)">
+    <net code="77" name="unconnected-(U1-PadL1)">
+      <node ref="U1" pin="L1" pinfunction="P0.06" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-PadM2)">
       <node ref="U1" pin="M2" pinfunction="TRACECLK/P0.07" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U1-PadP2)">
+    <net code="79" name="unconnected-(U1-PadP2)">
       <node ref="U1" pin="P2" pinfunction="P1.08" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U1-PadP23)">
+    <net code="80" name="unconnected-(U1-PadP23)">
       <node ref="U1" pin="P23" pinfunction="P1.07" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U1-PadR1)">
+    <net code="81" name="unconnected-(U1-PadR1)">
       <node ref="U1" pin="R1" pinfunction="TRACEDATA3/P1.09" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U1-PadT23)">
+    <net code="82" name="unconnected-(U1-PadT23)">
       <node ref="U1" pin="T23" pinfunction="P1.05" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U1-PadU1)">
+    <net code="83" name="unconnected-(U1-PadU1)">
       <node ref="U1" pin="U1" pinfunction="TRACEDATA1/P0.12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U1-PadV23)">
+    <net code="84" name="unconnected-(U1-PadV23)">
       <node ref="U1" pin="V23" pinfunction="P1.03" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U1-PadY23)">
+    <net code="85" name="unconnected-(U1-PadY23)">
       <node ref="U1" pin="Y23" pinfunction="P1.01" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U2-Pad7)">
+    <net code="86" name="unconnected-(U2-Pad7)">
       <node ref="U2" pin="7" pinfunction="~PGOOD" pintype="open_collector+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U2-Pad12)">
+    <net code="87" name="unconnected-(U2-Pad12)">
       <node ref="U2" pin="12" pinfunction="ILIM" pintype="passive+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U2-Pad14)">
+    <net code="88" name="unconnected-(U2-Pad14)">
       <node ref="U2" pin="14" pinfunction="TMR" pintype="input+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U3-Pad4)">
+    <net code="89" name="unconnected-(U3-Pad4)">
       <node ref="U3" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
