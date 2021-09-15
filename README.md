@@ -9,7 +9,11 @@ nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nRFMicro](h
 3. ESD protection on USB lines, and 500mA fuse protection for VBUS and EXT_5V
 4. "Bidirectional" power over EXT_5V
 
-Note that the project files use kicad nightly (5.99).
+The charger IC is "software controlled"; there are two pins (P0.26 and P1.15) that can be toggled (for a total of 4 combinations) to control the charge current. If they are both high-Z (floated), it is disabled.
+
+There is no official support from ZMK for this board. Note that the project files use kicad nightly (5.99).
+
+
 
 ### ext_5v
 
