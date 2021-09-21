@@ -11,7 +11,7 @@ nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nRFMicro](h
 
 The charger IC is "software controlled"; there are two pins (P0.26 and P1.15) that can be toggled (for a total of 4 combinations) to control the charge current. If they are both high-Z (floated), is disabled.
 
-There are also two additional through-holes (the small ones below the USB connector), marked **B** and **G** (on the back side); these are **B+** and **B-** respectively, in case you want to solder the batter leads directly to the board.
+There are also two additional through-holes (the small ones below the USB connector), marked **B** and **G** (on the back side); these are **B+** and **B-** respectively, in case you want to solder the battery leads directly to the board.
 
 There is no official support from ZMK for this board. Note that the project files use kicad nightly (5.99).
 
