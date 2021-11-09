@@ -13,7 +13,7 @@ The charger IC is "software controlled"; there are two pins (P0.26 and P1.15) th
 
 There are also two additional through-holes (the small ones below the USB connector), marked **B** and **G** (on the back side); these are **B+** and **B-** respectively, in case you want to solder the battery leads directly to the board.
 
-There is no official support from ZMK for this board. Note that the project files use kicad nightly (5.99).
+ZMK now has support for mikoto, as of [this PR](https://github.com/zmkfirmware/zmk/pull/985). Note that the project files use kicad nightly (5.99).
 
 
 
