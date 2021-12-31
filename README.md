@@ -13,7 +13,7 @@ The charger IC is "software controlled"; there are two pins (P0.26 and P1.15) th
 
 There are also two additional through-holes (the small ones below the USB connector), marked **B** and **G** (on the back side); these are **B+** and **B-** respectively, in case you want to solder the battery leads directly to the board.
 
-Note that the project files require KiCad 6.0.
+Note that the project files require KiCad 6.0. See [the changelog](./CHANGELOG.md) for the revision history (and compatibility)
 
 
 
