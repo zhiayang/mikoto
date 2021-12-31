@@ -30,7 +30,7 @@ The PCB *should* be manufactured with an ENIG surface finish, but it *can* be do
 
 All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification. A stencil is mandatory — get a 100µm (0.1mm) thick one.
 
-<p align="center"><img src="./misc/rev-5.17.png" width="300px"></p>
+<p align="center"><img src="./misc/images/rev-5.17.png" width="300px"></p>
 
 There's no "component silkscreen" on the board except 4 lines to align the nRF chip, so using something like KiCad's [Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin is a good idea.
 
@@ -47,28 +47,6 @@ There are no known problems from revision 5.17 onwards. 5.19 and 5.20 are just m
 ### software
 
 ZMK now has support for mikoto, as of [this PR](https://github.com/zmkfirmware/zmk/pull/985), and so does the *Adafruit nRF52 Bootloader*, as of [this PR](https://github.com/adafruit/Adafruit_nRF52_Bootloader/pull/230). Thanks to @mrninhvn for both of those. A binary version of the bootloader (0.6.2) can be found in `misc/bootloaders/`.
-
-
-
-
-### changelog
-
-**revision 6.1** (from 5.20)
-
-Compatibility:
-
-- Incompatible pinout, bottom pad layout for USB changed (SWD pad positions unchanged).
-- Stencil / position / parts compatible with revisions 5.17 - 5.20.
-
-Changes:
-
-1. Changed `P1.00` to `P1.08` (still high drive)
-2. Exposed the old `P1.00` as an `SWO` pad instead (useful for debug trace output)
-3. Changed the `VBUS` pin to expose `VDDH` instead
-4. `VBUS` exposed as an underside pad
-
-
-
 
 
 
