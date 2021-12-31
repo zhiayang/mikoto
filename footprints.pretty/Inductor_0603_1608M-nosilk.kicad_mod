@@ -1,5 +1,6 @@
-(footprint "Inductor_0603_1608M-nosilk" (version 20210623) (generator pcbnew) (layer "F.Cu")
-  (tedit 61000C83)
+(footprint "Inductor_0603_1608M-nosilk" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61C1FB99)
   (descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
   (tags "inductor")
   (property "LCSC Part" "C76732")
@@ -29,7 +30,7 @@
   (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp f037e64b-abe0-40c5-a675-f5c9811a5a11))
   (pad "1" smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 51ff8e87-bda1-4b12-9de7-b8dea46a1bca))
   (pad "2" smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f6db9ac9-84ac-4daa-ae09-b1831612c187))
-  (model "${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
-          "min_clearance": 0.0
+          "45_degree_only": false,
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -70,6 +70,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -88,6 +89,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "error",
         "track_width": "error",
@@ -111,9 +113,9 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.11499999999999999,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.125,
         "min_via_diameter": 0.44999999999999996,
         "use_height_for_length_calcs": true
       },
@@ -127,6 +129,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
         },
         {
           "diameter": 0.5,
@@ -399,7 +405,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
