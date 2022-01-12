@@ -11,7 +11,7 @@ Previous revision: 6.1
 Compatibility:
 
 - (Slightly) incompatible pinout: `VDDH` pin (top right) changed to `VDD`
-- Stencil / position / parts compatibile with 5.17+
+- Stencil / position / parts compatible with 5.17+
 - Underside pads compatible with 6.1
 
 Changes:
