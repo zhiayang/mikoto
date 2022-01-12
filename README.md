@@ -2,6 +2,8 @@
 
 nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nRFMicro](https://github.com/joric/nrfmicro) and [nice!nano](https://nicekeyboards.com/nice-nano).
 
+**See [the changelog](./CHANGELOG.md) for the revision history (and compatibility)**
+
 ### what
 
 1. VDDH power path (5V USB power, and/or 3.7V Li-ion battery)
@@ -13,7 +15,8 @@ The charger IC is "software controlled"; there are two pins (P0.26 and P1.15) th
 
 There are also two additional through-holes (the small ones below the USB connector), marked **B** and **G** (on the back side); these are **B+** and **B-** respectively, in case you want to solder the battery leads directly to the board.
 
-Note that the project files require KiCad 6.0. See [the changelog](./CHANGELOG.md) for the revision history (and compatibility)
+Note that the project files require KiCad 6.0.
+
 
 
 
