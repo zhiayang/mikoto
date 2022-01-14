@@ -40,6 +40,12 @@ manufacturer. The current design files are optimised for JLCPCB's 4-layer 7628 s
 **read**: if you choose to use a different (1) board thickness, (2) manufacturer, or (3) stackup, you ***must*** modify the design
 accordingly to change the antenna feed (either trace width, plane separation, or both). The antenna feed uses a grounded coplanar waveguide design.
 
+<p align="center"><img src="./misc/images/antenna-feed.png" width="500px"></p>
+<p align="center">Figure 1: the antenna feed</p>
+
+
+
+
 The PCB *should* be manufactured with an ENIG surface finish, but it has been tested with HASL boards (run a solder wick over the pads first). All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification. A stencil is mandatory — get a 100µm (0.1mm) thick one.
 
 It's a good idea to get an electropolished stencil if you want to paste more than one board at a time, otherwise you will probably need to completely clean out the stencil before pasting another board.
