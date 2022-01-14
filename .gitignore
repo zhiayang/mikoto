@@ -8,3 +8,4 @@ flashbed/mikoto-flashbed-backups
 fp-info-cache
 flashbed/fp-info-cache
 *.xml
+*.kicad_prl
