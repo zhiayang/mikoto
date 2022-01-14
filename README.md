@@ -1,8 +1,13 @@
-## みこと
+# みこと
 
 nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nRFMicro](https://github.com/joric/nrfmicro) and [nice!nano](https://nicekeyboards.com/nice-nano).
 
 **See [the changelog](./CHANGELOG.md) for the revision history (and compatibility)**
+
+### picture
+
+<p align="center"><img src="./misc/images/rev-5.17.png" width="300px"></p>
+
 
 ### what
 
@@ -27,29 +32,27 @@ The EXT_5V pin acts both as a power input and a power output; normally it is an 
 EXT_5V is connected to the battery charger, so if you wire your TRRS (for split keyboards) to it (instead of a 3.3V VCC line), you can charge the battery on both halves by only plugging in one half to USB.
 
 
-### assembly
+### production & assembly
 
-The PCB *should* be manufactured with an ENIG surface finish, but it *can* be done using HASL (in which case you should run a solder wick over all the pads first).
+Since the design contains a controlled-impedance trace (namely the antenna feed), it is specific to a given stackup from a given
+manufacturer. The current design files are optimised for JLCPCB's 4-layer 7628 stackup.
 
-All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification. A stencil is mandatory — get a 100µm (0.1mm) thick one.
+**read**: if you choose to use a different (1) board thickness, (2) manufacturer, or (3) stackup, you ***must*** modify the design
+accordingly to change the antenna feed (either trace width, plane separation, or both). The antenna feed uses a grounded coplanar waveguide design.
 
-<p align="center"><img src="./misc/images/rev-5.17.png" width="300px"></p>
+The PCB *should* be manufactured with an ENIG surface finish, but it has been tested with HASL boards (run a solder wick over the pads first). All components are 0402 (1005 metric) or larger, and can be placed by hand without magnification. A stencil is mandatory — get a 100µm (0.1mm) thick one.
 
-There's no "component silkscreen" on the board except 4 lines to align the nRF chip, so using something like KiCad's [Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin is a good idea.
+It's a good idea to get an electropolished stencil if you want to paste more than one board at a time, otherwise you will probably need to completely clean out the stencil before pasting another board.
 
-It's a good idea to get an electropolished stencil if you want to paste more than one board at a time, if not you will probably need to completely clean out the stencil before pasting another board.
+All prototypes are assembled with Chipquik SMD291AX T4 solder paste.
 
-I used Chipquik SMD291AX T4 paste for all the boards.
+There's no "component silkscreen" on the board except 4 lines to align the nRF chip, so use [`ibom.html`](./misc/ibom.html) while placing parts. It is generated using KiCad's excellent [Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin.
 
-
-### problems
-
-There are no known problems from revision 5.17 onwards. 5.19 and 5.20 are just minor tweaks to the inner ground plane and the paste layer, so the functionality remains identical.
 
 
 ### software
 
-ZMK now has support for mikoto, as of [this PR](https://github.com/zmkfirmware/zmk/pull/985), and so does the *Adafruit nRF52 Bootloader*, as of [this PR](https://github.com/adafruit/Adafruit_nRF52_Bootloader/pull/230). Thanks to @mrninhvn for both of those. A binary version of the bootloader (0.6.2) can be found in `misc/bootloaders/`.
+ZMK now has support for mikoto, as of [this PR](https://github.com/zmkfirmware/zmk/pull/985), and so does the *Adafruit nRF52 Bootloader*, as of [this PR](https://github.com/adafruit/Adafruit_nRF52_Bootloader/pull/230). Thanks to @mrninhvn for both of those. A binary version of the bootloader (0.6.3) can be found in `misc/bootloaders/`.
 
 
 
