@@ -35,7 +35,7 @@ EXT_5V is connected to the battery charger, so if you wire your TRRS (for split 
 ### production & assembly
 
 Since the design contains a controlled-impedance trace (namely the antenna feed), it is specific to a given stackup from a given
-manufacturer. The current design files are optimised for JLCPCB's 4-layer 7628 stackup.
+manufacturer. The current design files are optimised for JLCPCB's 1.6mm, 4-layer 7628 stackup.
 
 **read**: if you choose to use a different (1) board thickness, (2) manufacturer, or (3) stackup, you ***must*** modify the design
 accordingly to change the antenna feed (either trace width, plane separation, or both). The antenna feed uses a grounded coplanar waveguide design.
