@@ -2,6 +2,35 @@
 
 Note that numbers are skipped arbitrarily based on my whims and fancies.
 
+## revision 7.2 (untested)
+
+Previous revision: 7.1
+
+Compatibility:
+
+- Pinout identical to 6.3
+- New stencil required (different from 7.1)
+
+Changes:
+
+1. remove I2C pullups from MAX17048 chip; they were frying the MCU IO pins
+2. shrink LEDs to 0402 size
+3. add solder points for metal can
+
+
+## revision 7.1 (do not build -- broken)
+
+Previous revision: 6.3
+
+Compatibility:
+
+- Pinout identical to 6.3
+- New stencil required
+
+Changes:
+
+1. add on-board MAX17048 fuel gauge IC for battery monitoring
+
 
 
 ## revision 6.3
