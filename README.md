@@ -4,8 +4,6 @@ nRF52840 microcontroller, in a pro-micro footprint, inspired by the [nRFMicro](h
 
 **See [the changelog](./CHANGELOG.md) for the revision history (and compatibility)**
 
-**NOTE: rev 7.1 is defective! Do not build/order it until a new one is released; stick to 5.20 for now, since I never tested rev 6+.** Issue is that
-the IO pins for the builtin fuel-gauge I2C are exposed to battery charging voltage (>4.2V), which is above the maximum rating of 3.9V.
 
 ### picture
 
